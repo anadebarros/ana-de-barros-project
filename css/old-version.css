@@ -1,7 +1,6 @@
 
 
 /*header*/
-
 body{
 	margin:0px;
 	padding:0px;
@@ -55,9 +54,9 @@ h1{
 
 }
 
- 
+
  button{
- 	
+
  	background-color:#f7bebe;
  	color:black;
     text-align: center;
@@ -97,7 +96,7 @@ footer{
 	margin-left: auto;
 	width:1170px;
 	height:300px;
-	
+
 }
 
 .footer-elements{
@@ -208,7 +207,7 @@ h3{
     margin-left:172px;
     margin-top:1px;
     cursor: pointer;
-    
+
 }
 
 
@@ -223,7 +222,7 @@ h3{
 	position: fixed;
 	z-index:10;
 }
- 
+
 
 .nav-container{
 	display: inline-block;
@@ -250,7 +249,7 @@ h3{
     margin: 6px 0;
     transition: 0.4s;
 }
-*/
+
 
 /* Rotate first bar */
 .change .home {
@@ -289,8 +288,8 @@ h3{
 	margin-left: -15px;
 	clear:both;
 	font-family:'Lato', sans-serif;
-	clear:both; 
-	text-align: center; 
+	clear:both;
+	text-align: center;
 	padding-top: 25px;
 	padding-left: 25px;
 	padding-right: 25px;
@@ -393,4 +392,3 @@ h3{
 .coffee h4{
 	font-size: 2em;
 }
-
