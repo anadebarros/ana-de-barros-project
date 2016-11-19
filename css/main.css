@@ -65,9 +65,9 @@ h1{
 
 }
 
- 
+
  button{
-  
+
     background-color:#f7bebe;
     color:black;
     text-align: center;
@@ -92,9 +92,8 @@ button:hover {
     text-decoration: line-through;
 }
 
-button a:after{
-  text-decoration:none;
-  border:none;
+button:focus{
+  outline:0;
 }
 
 
@@ -110,7 +109,7 @@ footer{
   margin-left: auto;
   width:1170px;
   height:300px;
-  
+
 }
 
 .footer-elements{
@@ -231,7 +230,7 @@ svg:hover #dna-icon{
     margin-left:289px;
     margin-top:1px;
     cursor: pointer;
-      
+
 }
 
 svg:hover #cv-icon{
@@ -285,7 +284,7 @@ svg:hover #cv-icon{
   bottom:0px;
   width:100px;
   padding:20px;
-  background:black;   
+  background:black;
 }
 
 .sidebar li{
@@ -330,6 +329,3 @@ svg:hover #cv-icon{
 }
 
 /*end of slide navigation bar*/
-
-
-
