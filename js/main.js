@@ -1,4 +1,4 @@
-//home page 
+//home page
 
 $(document).ready(function(){
 	setInterval ("pisca()", 600);
@@ -14,12 +14,12 @@ function pisca() {
 	}, "fast", "swing");
 }
 
-//about me nav bar 
+//about me nav bar
 
 /*
 
 function cross(x) {
-    x.classList.toggle("change");
+x.classList.toggle("change");
 }
 
 */
