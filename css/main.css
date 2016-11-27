@@ -360,6 +360,23 @@ background-color: rgba(0,0,0,0.1);
 
   /*about me*/
 
+            #dna {
+                width: 135px;
+                height: 153px;
+                position: absolute;
+                display: inline;
+                margin-left: 0px;
+                margin-top: -318px;
+                cursor: pointer;
+            }
+
+            #cv {
+                width: 90px;
+                height: 89px;
+                margin-left: 0px;
+                margin-top: 1px;
+                cursor: pointer;
+            }
 
 
         }
