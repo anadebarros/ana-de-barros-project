@@ -173,16 +173,14 @@ background-color: rgba(0,0,0,0.1);
         /*header*/
 
         .header-about-me {
-            background-image: url("../img/002.jpg");
-            background-size: 100%;
-            background-position: cover;
+            background: url("../img/002.jpg") no-repeat top center scroll;
+            background-size: cover;
             -webkit-background-size: cover;
             -moz-background-size: cover;
-            background-attachment: fixed;
-            background-repeat: no-repeat top center scroll;
-            height: 500px;
-            margin-left: 0px;
-            padding-left: 0px;
+            width: 100%;
+            height: 600px;
+            display: table;
+            z-index:1;
         }
 
         figure {
@@ -235,6 +233,7 @@ background-color: rgba(0,0,0,0.1);
             background-color: #F7BEBE;
             margin-top: 0px;
             padding-top: 0px;
+            z-index:0px;
         }
         /*slide navigation bar*/
 
@@ -318,6 +317,8 @@ background-color: rgba(0,0,0,0.1);
         /*start media queries*/
 
         @media only screen and (max-width:480px) {
+
+/*main page*/
             .header-container {
                 width: 280px;
                 height: 500px;
@@ -356,4 +357,9 @@ background-color: rgba(0,0,0,0.1);
                 margin-bottom: 30px;
                 margin-top: -10px;
             }
+
+  /*about me*/
+
+
+
         }
