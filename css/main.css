@@ -166,10 +166,10 @@ background-color: rgba(0,0,0,0.1);
             margin-right: 15px;
         }
 
-        .fa-linkedin:focus, .fa-bandcamp:focus, .fa-github:focus, .fa-codepen:focus{
+        .fa:focus, .fa-linkedin:focus, .fa-bandcamp:focus, .fa-github:focus, .fa-codepen:focus{
           outline:0;
         }
-        
+
         h3 {
             color: black;
             font-size: 2em;
