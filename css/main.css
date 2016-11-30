@@ -505,35 +505,4 @@ background-color: rgba(0,0,0,0.1);
                 margin-top: -10px;
             }
             /*about me*/
-            #dna {
-                width: 135px;
-                height: 153px;
-                position: absolute;
-                display: inline;
-                margin-left: 0px;
-                margin-top: -318px;
-                cursor: pointer;
-            }
-            #cv {
-                width: 90px;
-                height: 89px;
-                margin-left: 0px;
-                margin-top: 1px;
-                cursor: pointer;
-            }
-            .header-about-me {
-                background: url(../img/002.jpg) no-repeat top center scroll;
-                background-size: cover;
-                -webkit-background-size: cover;
-                -moz-background-size: cover;
-                width: 100%;
-                display: table;
-                z-index: 1;
-            }
-            .middle {
-                height: 345px;
-                margin-top: 0px;
-                padding-top: 0px;
-                z-index: 0px;
-            }
-        }
+            
