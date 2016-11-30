@@ -87,8 +87,8 @@ background-color: rgba(0,0,0,0.1);
             outline: 0;
         }
 
-        a:focus{
-          outline:0;
+        a:focus {
+            outline: 0;
         }
         /*end of buttons*/
         /* end of header */
@@ -166,8 +166,8 @@ background-color: rgba(0,0,0,0.1);
             margin-right: 15px;
         }
 
-        .fa:focus, .fa-linkedin:focus, .fa-bandcamp:focus, .fa-github:focus, .fa-codepen:focus{
-          outline:0;
+        .fa:focus, .fa-linkedin:focus, .fa-bandcamp:focus, .fa-github:focus, .fa-codepen:focus {
+            outline: 0;
         }
 
         h3 {
@@ -181,14 +181,53 @@ background-color: rgba(0,0,0,0.1);
         /*header*/
 
         .header-about-me {
-            background: url("../img/002.jpg") no-repeat top center scroll;
+            background: url("../img/02.jpg") no-repeat top center scroll;
             background-size: cover;
             -webkit-background-size: cover;
             -moz-background-size: cover;
             width: 100%;
-            height: 565px;
+            height: auto;
             display: table;
-            z-index:1;
+        }
+
+        .header-container-about-me {
+            width: 500px;
+            height: 932px;
+            display: inline-block;
+            float: right;
+            margin-right: auto;
+            clear: all;
+            background: rgba(247, 190, 190, 0.3);
+        }
+
+        .me {
+            background: url("../img/eu.jpg") no-repeat;
+            opacity: 0.5;
+            width: 300px;
+            height: 204px;
+        }
+
+        .me-border {
+            margin-top: 80px;
+            margin-left: auto;
+            margin-right: auto;
+            width: 300px;
+            height: 204px;
+            border: 30px solid rgb(247, 190, 190);
+        }
+
+        .about-me-text {
+            font-size: 1.5em;
+            font-family: 'Lato', sans-serif;
+            letter-spacing: 0.3em justify-content: center;
+            margin-left: 70px;
+            margin-right: 50px;
+            text-transform: uppercase;
+            width: 375px;
+        }
+
+        .black {
+            color: black;
         }
 
         figure {
@@ -199,21 +238,20 @@ background-color: rgba(0,0,0,0.1);
         }
 
         .arrow {
-            width: 142px;
-            height: 141px;
-            margin-top: -10px;
-            margin-left: -5px;
-            padding-top: 100px;
-            padding-left: 99px;
+            width: 112px;
+            height: 105px;
+            margin-top: 2px;
+            margin-left: 10px;
+            padding-left: 22px;
         }
 
         #dna {
-            width: 151px;
+            width: 136px;
             height: 153px;
             position: absolute;
             display: inline;
-            margin-left: 528px;
-            margin-top: -208px;
+            margin-left: 301px;
+            margin-top: -146px;
             cursor: pointer;
         }
 
@@ -222,12 +260,49 @@ background-color: rgba(0,0,0,0.1);
             transition-duration: 0.6s;
             -webkit-transition-duration: 0.6s;
         }
+        /* CSS effects Ian Lunn Github repository*/
+        /* Pulse Grow */
+
+        @-webkit-keyframes hvr-pulse-grow {
+            to {
+                -webkit-transform: scale(1.1);
+                transform: scale(1.1);
+            }
+        }
+
+        @keyframes hvr-pulse-grow {
+            to {
+                -webkit-transform: scale(1.1);
+                transform: scale(1.1);
+            }
+        }
+
+        .hvr-pulse-grow {
+            display: inline-block;
+            vertical-align: middle;
+            -webkit-transform: perspective(1px) translateZ(0);
+            transform: perspective(1px) translateZ(0);
+            box-shadow: 0 0 1px transparent;
+        }
+
+        .hvr-pulse-grow:hover, .hvr-pulse-grow:focus, .hvr-pulse-grow:active {
+            -webkit-animation-name: hvr-pulse-grow;
+            animation-name: hvr-pulse-grow;
+            -webkit-animation-duration: 0.3s;
+            animation-duration: 0.3s;
+            -webkit-animation-timing-function: linear;
+            animation-timing-function: linear;
+            -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+            -webkit-animation-direction: alternate;
+            animation-direction: alternate;
+        }
+        /*finishes CSS effects Ian Lunn Github repository*/
 
         #cv {
-            width: 90px;
-            height: 96px;
-            margin-left: 212px;
-            margin-top: 1px;
+            width: 82px;
+            margin-left: 125px;
+            margin-top: -9px;
             cursor: pointer;
         }
 
@@ -236,6 +311,57 @@ background-color: rgba(0,0,0,0.1);
             transition-duration: 0.6s;
             -webkit-transition-duration: 0.6s;
         }
+        /*insert CSS effects IanLunn github*/
+        /*Woble*/
+
+        .hvr-wobble-bottom {
+            display: inline-block;
+            vertical-align: middle;
+            -webkit-transform: perspective(1px) translateZ(0);
+            transform: perspective(1px) translateZ(0);
+            box-shadow: 0 0 1px transparent;
+            -webkit-transform-origin: 100% 0;
+            transform-origin: 100% 0;
+        }
+
+        .hvr-wobble-bottom:hover, .hvr-wobble-bottom:focus, .hvr-wobble-bottom:active {
+            -webkit-animation-name: hvr-wobble-bottom;
+            animation-name: hvr-wobble-bottom;
+            -webkit-animation-duration: 1s;
+            animation-duration: 1s;
+            -webkit-animation-timing-function: ease-in-out;
+            animation-timing-function: ease-in-out;
+            -webkit-animation-iteration-count: 1;
+            animation-iteration-count: 1;
+        }
+
+        @keyframes hvr-wobble-bottom {
+            16.65% {
+                -webkit-transform: skew(-12deg);
+                transform: skew(-12deg);
+            }
+            33.3% {
+                -webkit-transform: skew(10deg);
+                transform: skew(10deg);
+            }
+            49.95% {
+                -webkit-transform: skew(-6deg);
+                transform: skew(-6deg);
+            }
+            66.6% {
+                -webkit-transform: skew(4deg);
+                transform: skew(4deg);
+            }
+            83.25% {
+                -webkit-transform: skew(-2deg);
+                transform: skew(-2deg);
+            }
+            100% {
+                -webkit-transform: skew(0);
+                transform: skew(0);
+            }
+        }
+        /*end CSS effects Ian Lunn Github*/
 
         .text {
             border: 1px dotted white;
@@ -244,17 +370,6 @@ background-color: rgba(0,0,0,0.1);
             float: right;
             margin-top: -182px;
             margin-right: 50px;
-        }
-
-
-        /*middle elements*/
-
-        .middle {
-            height: 400px;
-            background-color: #F7BEBE;
-            margin-top: 0px;
-            padding-top: 0px;
-            z-index:0px;
         }
         /*slide navigation bar*/
 
@@ -280,8 +395,8 @@ background-color: rgba(0,0,0,0.1);
             cursor: pointer;
         }
 
-        .toggle:focus{
-          outline:0;
+        .toggle:focus {
+            outline: 0;
         }
 
         .sidebar {
@@ -309,16 +424,17 @@ background-color: rgba(0,0,0,0.1);
             -webkit-font-smoothing: antialised;
             cursor: pointer;
         }
-        .sidebar li:focus{
-          outline:0;
+
+        .sidebar li:focus {
+            outline: 0;
         }
 
         .sidebar a {
             text-decoration: none;
         }
 
-        .sidebar a:focus{
-          outline:0;
+        .sidebar a:focus {
+            outline: 0;
         }
 
         .sidebar li:hover {
@@ -349,8 +465,7 @@ background-color: rgba(0,0,0,0.1);
         /*start media queries*/
 
         @media only screen and (max-width:480px) {
-
-/*main page*/
+            /*main page*/
             .header-container {
                 width: 280px;
                 height: 500px;
@@ -389,9 +504,7 @@ background-color: rgba(0,0,0,0.1);
                 margin-bottom: 30px;
                 margin-top: -10px;
             }
-
-  /*about me*/
-
+            /*about me*/
             #dna {
                 width: 135px;
                 height: 153px;
@@ -401,7 +514,6 @@ background-color: rgba(0,0,0,0.1);
                 margin-top: -318px;
                 cursor: pointer;
             }
-
             #cv {
                 width: 90px;
                 height: 89px;
@@ -409,7 +521,6 @@ background-color: rgba(0,0,0,0.1);
                 margin-top: 1px;
                 cursor: pointer;
             }
-
             .header-about-me {
                 background: url(../img/002.jpg) no-repeat top center scroll;
                 background-size: cover;
@@ -419,12 +530,10 @@ background-color: rgba(0,0,0,0.1);
                 display: table;
                 z-index: 1;
             }
-
             .middle {
-              height: 345px;
-              margin-top: 0px;
-              padding-top: 0px;
-              z-index: 0px;
-          }
-
+                height: 345px;
+                margin-top: 0px;
+                padding-top: 0px;
+                z-index: 0px;
+            }
         }
