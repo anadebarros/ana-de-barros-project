@@ -489,7 +489,7 @@ background-color: rgba(0,0,0,0.1);
                 border: 17px solid rgb(247, 190, 190);
             }
             .me {
-                background: url(../img/eu2.jpg) no-repeat;
+                background: url("../img/eu2.jpg") no-repeat;
                 opacity: 0.5;
                 width: 117px;
                 height: 82px;
