@@ -492,12 +492,18 @@ background-color: rgba(0,0,0,0.1);
                 margin-top: -10px;
             }
             /*about me*/
+
+            .header-about-me {
+    width: 100%;
+    height: 537px;
+    display: table;
+}
             .header-container-about-me {
                 background-size: cover;
                 -webkit-background-size: cover;
                 -moz-background-size: cover;
-                width: 360px;
-                height: 522px;
+                width: 183px;
+                height: 537px;
                 display: table;
             }
             .header-container-about-me {
@@ -507,10 +513,6 @@ background-color: rgba(0,0,0,0.1);
                 margin-right: auto;
                 clear: all;
             }
-
-            /*ends main page*/
-
-            /*starts about me page*/
 
 /* to change navigation bar to top of page*/
 
@@ -543,7 +545,7 @@ top: -250px;
     color: rgba(247, 190, 190, 0.8);
     list-style-type: none;
     font-family: "Lato", Sans-serif;
-    font-size: 13px;
+    font-size: 17px;
     margin-bottom: 28px;
     text-align: left;
     cursor: pointer;
@@ -551,7 +553,7 @@ top: -250px;
 
 
 .sidebar ul {
-    padding-top:48px;
+    padding-top:43px;
     padding-right:0px;
     padding-left:0px;
 }
