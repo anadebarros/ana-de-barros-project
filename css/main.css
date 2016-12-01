@@ -15,9 +15,9 @@ background-color: rgba(0,0,0,0.1);
         }
 
         body {
-          width:100%;
-          height:100%;
-          padding:0;
+            width: 100%;
+            height: 100%;
+            padding: 0;
             margin: 0;
         }
         /*beginning of home page*/
@@ -90,11 +90,8 @@ background-color: rgba(0,0,0,0.1);
         a:focus {
             outline: 0;
         }
-
         /*end of home page*/
-
         /*beginning of about me page*/
-
         /*nav bar*/
         /*slide navigation bar*/
 
@@ -179,7 +176,6 @@ background-color: rgba(0,0,0,0.1);
             padding-left: 50px;
         }
         /*end of slide navigation bar*/
-
         /*header*/
 
         .header-about-me {
@@ -336,7 +332,6 @@ background-color: rgba(0,0,0,0.1);
             -webkit-animation-iteration-count: 1;
             animation-iteration-count: 1;
         }
-
         /*beginning of footer */
 
         footer {
@@ -421,6 +416,7 @@ background-color: rgba(0,0,0,0.1);
             font-family: 'Amatic SC', cursive;
         }
         /*end of footer*/
+
         @keyframes hvr-wobble-bottom {
             16.65% {
                 -webkit-transform: skew(-12deg);
@@ -448,7 +444,6 @@ background-color: rgba(0,0,0,0.1);
             }
         }
         /*end CSS effects Ian Lunn Github*/
-
         /*start media queries*/
 
         @media only screen and (max-width:480px) {
@@ -474,6 +469,135 @@ background-color: rgba(0,0,0,0.1);
                 margin-bottom: 0px;
                 font-size: 1em;
             }
+            /*about me page*/
+            .header-about-me {
+                width: 100%;
+                height: 537px;
+                display: table;
+            }
+            .header-container-about-me {
+                width: 183px;
+                height: 537px;
+                display: table;
+            }
+            .me-border {
+                margin-top: 26px;
+                margin-left: auto;
+                margin-right: auto;
+                width: 117px;
+                height: 82px;
+                border: 17px solid rgb(247, 190, 190);
+            }
+            .me {
+                background: url(../img/eu2.jpg) no-repeat;
+                opacity: 0.5;
+                width: 117px;
+                height: 82px;
+            }
+            .about-me-text {
+                font-size: 15px;
+                font-family: 'Lato', sans-serif;
+                letter-spacing: 0.3em justify-content: center;
+                margin-left: 20px;
+                margin-right: 0px;
+                text-transform: uppercase;
+                width: 100px;
+            }
+            
+            .arrow {
+                width: 62px;
+                height: 55px;
+                margin-bottom: 216px;
+                margin-top: -256px;
+                margin-left: -156px;
+            }
+            #cv {
+                width: 59px;
+                margin-bottom: 130px;
+                margin-left: -105px;
+                margin-top: -275px;
+                cursor: pointer;
+            }
+            svg:hover #cv-icon {
+                fill: rgba(247, 190, 190, 0.8);
+                transition-duration: 0.6s;
+                -webkit-transition-duration: 0.6s;
+            }
+            #dna {
+                width: 83px;
+                height: 80px;
+                position: absolute;
+                display: inline;
+                margin-left: -148px;
+                margin-top: -148px;
+                cursor: pointer;
+            }
+            svg:hover #dna-icon {
+                fill: rgba(247, 190, 190, 0.8);
+                transition-duration: 0.6s;
+                -webkit-transition-duration: 0.6s;
+            }
+            /* to change navigation bar to top of page*/
+            .toggle {
+                position: fixed;
+                transition: all 0.8s;
+                -webkit-transition: all 0.8s;
+                -moz-transition: all 0.8s;
+                top: 10px;
+                left: 10px;
+                z-index: 1;
+                text-decoration: none;
+                color: white;
+                font-size: 20px;
+                cursor: pointer;
+            }
+            .toggle:focus {
+                outline: 0;
+            }
+            .toggle:active {
+                outline: 0;
+            }
+            .sidebar {
+                width: 80px;
+                position: fixed;
+                transition: all 0.8s;
+                -webkit-transition: all 0.8s;
+                -moz-transition: all 0.8s;
+                z-index: 0;
+                right: 0;
+                left: 0px;
+                bottom: 0px;
+                height: 194px;
+                padding: 20px;
+                background: black;
+                top: -302px;
+            }
+            .sidebar li {
+                margin-left: 0px;
+                color: rgba(247, 190, 190, 0.8);
+                list-style-type: none;
+                font-family: "Lato", Sans-serif;
+                font-size: 17px;
+                margin-bottom: 28px;
+                text-align: left;
+                cursor: pointer;
+            }
+            .sidebar ul {
+                padding-top: 43px;
+                padding-right: 0px;
+                padding-left: 0px;
+            }
+            #sidebartoggler:checked+.page-wrap .sidebar {
+                top: 0px;
+            }
+            #sidebartoggler:checked+.page-wrap .toggle {
+                left: 20px;
+                top: 10px;
+            }
+            #sidebartoggler:checked+.page-wrap {
+                padding-top: 0px;
+            }
+            /*footer*/
             footer {
                 width: 100%;
                 padding-right: 0px;
@@ -491,84 +615,4 @@ background-color: rgba(0,0,0,0.1);
                 margin-bottom: 30px;
                 margin-top: -10px;
             }
-            /*about me*/
-
-            .header-about-me {
-    width: 100%;
-    height: 537px;
-    display: table;
-}
-            .header-container-about-me {
-                background-size: cover;
-                -webkit-background-size: cover;
-                -moz-background-size: cover;
-                width: 183px;
-                height: 537px;
-                display: table;
-            }
-            .header-container-about-me {
-                height: 500px;
-                display: inline-block;
-                float: right;
-                margin-right: auto;
-                clear: all;
-            }
-
-/* to change navigation bar to top of page*/
-
-.toggle:focus {
-    outline: 0;
-}
-
-.toggle:active{
-  outline:0;
-}
-
-.sidebar {
-width: 80px;
-position: fixed;
-transition: all 0.8s;
--webkit-transition: all 0.8s;
--moz-transition: all 0.8s;
-z-index: 0;
-right: 0;
-left: 0px;
-bottom: 0px;
-height: 194px;
-padding: 20px;
-background: black;
-top: -250px;
-}
-
-.sidebar li {
-    margin-left: 0px;
-    color: rgba(247, 190, 190, 0.8);
-    list-style-type: none;
-    font-family: "Lato", Sans-serif;
-    font-size: 17px;
-    margin-bottom: 28px;
-    text-align: left;
-    cursor: pointer;
-}
-
-
-.sidebar ul {
-    padding-top:43px;
-    padding-right:0px;
-    padding-left:0px;
-}
-
-#sidebartoggler:checked+.page-wrap .sidebar {
-    top: 0px;
-}
-
-#sidebartoggler:checked+.page-wrap .toggle {
-    left: 20px;
-    top:10px;
-}
-
-#sidebartoggler:checked+.page-wrap {
-    padding-top: 0px;
-}
-
         }
