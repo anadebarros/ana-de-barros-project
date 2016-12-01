@@ -535,11 +535,11 @@ bottom: 0px;
 height: 194px;
 padding: 20px;
 background: black;
-top: -174px;
+top: -250px;
 }
 
 .sidebar li {
-    margin-left: -40px;
+    margin-left: 0px;
     color: rgba(247, 190, 190, 0.8);
     list-style-type: none;
     font-family: "Lato", Sans-serif;
@@ -551,7 +551,7 @@ top: -174px;
 
 
 .sidebar ul {
-    padding-top:28px;
+    padding-top:48px;
     padding-right:0px;
     padding-left:0px;
 }
