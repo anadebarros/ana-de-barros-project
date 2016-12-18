@@ -19,3 +19,13 @@ function pisca() {
 function cross(x) {
     x.classList.toggle("change");
 };
+
+//for text-decoration color change
+var textDecor = document.getElementById("textdecor");
+textDecor.style.textDecorationColor = "white";
+
+var textDecorTwo = document.getElementById("textdecortwo");
+textDecorTwo.style.textDecorationColor = "white";
+
+var textDecorThree = document.getElementById("textdecorthree");
+textDecorThree.style.textDecorationColor = "white";
