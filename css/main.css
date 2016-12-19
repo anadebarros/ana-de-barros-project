@@ -57,7 +57,7 @@ body {
 }
 
 .sidebar li {
-  color: rgba(179,233,210, 0.8);
+  color: white;
   list-style-type: none;
   font-family: "Lato", Sans-serif;
   font-size: 70px;
