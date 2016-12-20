@@ -5,71 +5,148 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<link href="https://fonts.googleapis.com/css?family=Amatic+SC|Lato" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
 	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/ionicons.min.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 	<meta name="description" content="Hey, my name is Ana de Barros and I'm a Lisbon-based Front-End Developer. Welcome to my personal website.">
 	<title> Ana de Barros</title>
 </head>
 
 <body>
+	<!-- Return to Top Arrow -->
+	<a href="javascript:" id="top"><i class="fa fa-arrow-up"></i></a>
+	<!-- Finishes return to top arrow -->
 
-	<!--Header-->
+	<input type="checkbox" id="sidebartoggler">
+	<div class="page-wrap">
+		<label for="sidebartoggler" class="toggle" onclick="cross(this)">
+			<ul>
+				    <li class="one"></li>
+				    <li class="two"></li>
+				    <li class="three"></li>
+					</ul>
+		    </label>
+		<div class="page-content"></div>
+		<!--here I insert all of my page, inside of page-content -->
+		<!--here I begin my header-->
+		<!--Header-->
 
+		<header class="header">
+			<section class="header-container">
 
-	<header class="header">
-		<section class="header-container">
+				<h1 class="header-title"> Ana <br/>
+					de<br/>
+					Barros <br/>
+					|<span id="spanhead">Lisbon Based </span>|<br/>
+					Front <br/>
+					End <br/><span id="spanhead">Developer</span><span id="pisca">_</span>
+				</h1>
+			</section>
+		</header>
 
-			<h1> Ana <br/>
-				de<br/>
-				Barros <br/>
-				|<span id="spanhead">Lisbon Based </span>|
-				Front <br/>
-				End <span id="spanhead">Developer</span><span id="pisca">_</span><br/>
-			</h1>
-			<a href="about-me.html"><button type="button">About Me</button></a>
-			<a href="my-work.html"><button  type="button">My Work</button></a>
+		<!--starts about me section -->
 
+		<section class="about-me-container">
+			<img class="me" src="img/ny2.jpg">
+			<div class="about-me-text">
+				<p>Bacon ipsum dolor amet turkey alcatra chicken spare ribs turducken ham hock. Capicola fatback porchetta pancetta biltong cupim drumstick pork loin alcatra tenderloin kielbasa prosciutto. Capicola swine leberkas sirloin fatback spare ribs alcatra biltong
+					burgdoggen pork belly shankle flank drumstick.</p>
+				<button class="cv"><a href="#" target="_blank">Download my CV</a></button>
+			</div>
+			<!--keyboard animation for skills-->
+			<div class="keyboard">
+				<ul>
+					<li>
+						<a class='list-item' href="#">
+							<i class="fa fa-html5"></i>
+						</a>
+					</li>
+					<li>
+						<a class='list-item' href=''>
+							<i class="fa fa-css3"></i>
+						</a>
+					</li>
+					<li>
+						<a class='list-item' href=''>
+							<i class="ion-social-javascript"></i>
+						</a>
+					</li>
+					<li>
+						<a class='list-item' href=''>
+							<i class='fa fa-wordpress'></i>
+						</a>
+					</li>
+					<li>
+						<a class='list-item' href=''>
+							<i class='fa fa-github'></i>
+						</a>
+					</li>
+					<li>
+						<a class='list-item' href=''>
+							<i class='ion-social-angular'></i>
+						</a>
+					</li>
+					<li>
+				</ul>
+			</div>
+			<!--end of keyboard animation for skills-->
 		</section>
-	</header>
 
+		<!--ends about me section -->
 
-	<!--Footer-->
+		<!--Footer-->
 
-	<footer>
+		<footer>
 
-		<div class="footer-elements">
+			<div class="footer-elements">
 
-			<div class="footer-social">
-				<h3>Social Media</h3>
+				<div class="footer-social">
+					<h3>Social Media</h3>
 
-				<p><a target="_blank" href="https://pt.linkedin.com/in/ana-de-barros-4750998"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-					<a target="_blank" href="http://codepen.io/anadebarros/"><i class="fa fa-codepen" aria-hidden="true"></i></a></br>
-					<a target="_blank" href="https://duramatermusic.bandcamp.com/"><i class="fa fa-bandcamp" aria-hidden="true"></i></a>
-					<a target="_blank" href="https://github.com/anadebarros"><i class="fa fa-github" aria-hidden="true"></i></a>
-				</p>
+					<p><a target="_blank" href="https://pt.linkedin.com/in/ana-de-barros-4750998"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+						<a target="_blank" href="http://codepen.io/anadebarros/"><i class="fa fa-codepen" aria-hidden="true"></i></a></br>
+						<a target="_blank" href="https://duramatermusic.bandcamp.com/"><i class="fa fa-bandcamp" aria-hidden="true"></i></a>
+						<a target="_blank" href="https://github.com/anadebarros"><i class="fa fa-github" aria-hidden="true"></i></a>
+					</p>
 
+				</div>
+
+				<div class="footer-contact">
+					<h3>Contact</h3>
+					<p><i class="fa fa-envelope-o" aria-hidden="true"></i><br> scralowrealow{at}gmail.com</p>
+				</div>
+
+				<div class="footer-copyright">
+					<h3>Copyright</h3>
+					<p> <i class="fa fa-battery-full" aria-hidden="true"></i>
+						<i class="fa fa-battery-half" aria-hidden="true"></i>
+						<i class="fa fa-battery-empty" aria-hidden="true"></i> </p>
+					<p>&copy; Ana de Barros 2017 </p>
+				</div>
 			</div>
-
-			<div class="footer-contact">
-				<h3>Contact</h3>
-				<p><i class="fa fa-envelope-o" aria-hidden="true"></i><br> scralowrealow{at}gmail.com</p>
-			</div>
-
-			<div class="footer-copyright">
-				<h3>Copyright</h3>
-				<p> <i class="fa fa-battery-full" aria-hidden="true"></i>
-					<i class="fa fa-battery-half" aria-hidden="true"></i>
-					<i class="fa fa-battery-empty" aria-hidden="true"></i> </p>
-				<p>&copy; Ana de Barros 2017 </p>
-			</div>
+		</footer>
+		<div class="sidebar">
+			<ul>
+				<a href="index.html">
+					<li id="textdecor" class="hvr-wobble-bottom">Home</li>
+				</a>
+				<a href="about-me.html">
+					<li id="textdecortwo" class="hvr-wobble-bottom">About Me</li>
+				</a>
+				<a href="my-work.html">
+					<li id="textdecorthree" class="hvr-wobble-bottom">My Work</li>
+				</a>
+			</ul>
 		</div>
-	</footer>
+	</div>
+
 	<!--insert js files before body closes -->
 	<script type="text/javascript" src="js/jquery-3.0.0.min.js">
 	</script>
 	<script type="text/javascript" src="js/main.js">
 	</script>
+	<script type="text/javascript" src="https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.min.js"></script>"
 </body>
 
 </html>
