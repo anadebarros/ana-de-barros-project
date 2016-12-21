@@ -91,7 +91,7 @@ body {
   -moz-transition: all 0.8s;
   z-index: 0;
   top: 0px;
-  right: -2000px;
+  right: -150%;
   bottom: 0px;
   width: 130%;
   padding: 20px;
