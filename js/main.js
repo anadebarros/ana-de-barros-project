@@ -36,7 +36,16 @@ function cross(x) {
     x.classList.toggle("change");
 };
 
-//for text-decoration color change
+//for tooltip in about me section
+
+$(document).ready(function() {
+    $('.tooltipped').tooltip({
+        delay: 50
+    });
+});
+
+
+//for text-decoration color change not in use yet by chrome
 var textDecor = document.getElementById("textdecor");
 textDecor.style.textDecorationColor = "white";
 
