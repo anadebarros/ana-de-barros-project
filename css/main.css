@@ -403,12 +403,25 @@ figure{
 
 /*beginning of keyboard animation for skills*/
 /*tooltip*/
-.container {
-	text-align: center;
-	margin-top: 100px;
-  margin-left:100px;
+.container-tooltip {
+  margin-right: 187px;
+  margin-top: -240px;
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  float: right;
 }
 
+a .btn, .btn-large, .btn.tooltipped{
+  font: "Lato", sans-serif;
+  font-size: 12px;
+  background: #B3E9D2;
+  text-transform: uppercase;
+}
+
+a .btn:hover, .btn-large:hover, .btn.tooltipped:hover{
+  background: #a1d1bd;
+}
 
 *,
 *:before,
@@ -708,9 +721,9 @@ footer {
   outline: 0;
 }
 
-h3 {
+footer h3 {
   color: black;
-  font-size: 1.5em;
+  font-size: 1.2em;
   font-family: 'Lato', sans-serif;
   text-transform: uppercase;
   letter-spacing: 0.1em;
