@@ -324,7 +324,7 @@ figure{
   height: 347px;
   color: black;
   overflow: hidden;
-  margin-top: 41px;
+  margin-top: 51px;
   margin-right: 89px;
 }
 
@@ -426,7 +426,7 @@ a .btn, .btn-large, .btn.tooltipped{
 }
 
 a .btn:hover, .btn-large:hover, .btn.tooltipped:hover{
-  background: #a1d1bd;
+  background: #B3E9D2;
 }
 
 /*starts keyboard skills*/
