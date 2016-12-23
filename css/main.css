@@ -31,7 +31,7 @@ a:hover{
     bottom: 20px;
     right: 20px;
     background: rgb(0, 0, 0);
-    background: #B3E9D2;
+    background: #7fffe3;
     width: 50px;
     height: 50px;
     display: block;
@@ -80,7 +80,7 @@ a:hover{
   right: 20px;
   z-index: 1;
   text-decoration: none;
-  color: #B3E9D2;
+  color: #7fffe3;
   font-size: 30px;
   cursor: pointer;
 }
@@ -130,7 +130,7 @@ a:hover{
 }
 
 .sidebar li:hover {
-  color: rgba(179,233,210,1);
+  color: rgba(127, 255, 227,1);
   transition-duration: 0.6s;
   -webkit-transition-duration: 0.6s;
   -moz-transition-duration:0.6s;
@@ -219,7 +219,7 @@ animation-iteration-count: 1;
 
     width: 35px;
     height: 5px;
-    background-color:#B3E9D2;
+    background-color:#7FFFE3;
     margin: 6px 0;
     cursor: pointer;
     border-radius: 40px;
@@ -229,7 +229,7 @@ animation-iteration-count: 1;
 .change .one {
     -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
     transform: rotate(-45deg) translate(-9px, 6px) ;
-    background-color: #B3E9D2;
+    background-color: #7FFFE3;
 }
 
 /* Fade out the second bar */
@@ -241,7 +241,7 @@ animation-iteration-count: 1;
 .change .three {
     -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
     transform: rotate(45deg) translate(-8px, -8px) ;
-    background-color: #B3E9D2;
+    background-color: #7FFFE3;
 }
 
 /*end of slide navigation bar*/
@@ -288,7 +288,7 @@ animation-iteration-count: 1;
 }
 
 #spanhead {
-  color: #B3E9D2;
+  color: #7FFFE3;
 }
 
 /*end of home page*/
@@ -357,7 +357,7 @@ figure{
 	content: "";
 	right: 0;
 	top: 0;
-	background: #B3E9D2;
+	background: #7FFFE3;
 	transition: all 0.3s ease;
 }
 
@@ -385,7 +385,7 @@ figure{
 	content: "";
 	left: 0;
 	bottom: 0;
-	background: #B3E9D2;
+	background: #7FFFE3;
 	transition: all 0.3s ease;
 }
 
@@ -421,12 +421,12 @@ figure{
 a .btn, .btn-large, .btn.tooltipped{
   font: "Lato", sans-serif;
   font-size: 12px;
-  background: #B3E9D2;
+  background: #E0E0E0;
   text-transform: uppercase;
 }
 
 a .btn:hover, .btn-large:hover, .btn.tooltipped:hover{
-  background: #B3E9D2;
+  background: #E0E0E0;
 }
 
 /*starts keyboard skills*/
@@ -492,7 +492,7 @@ a .btn:hover, .btn-large:hover, .btn.tooltipped:hover{
   transition: all .25s linear;
 }
 .list-item:hover {
-  background: #B3E9D2;
+  background: #7FFFE3;
   color: black;
   -webkit-transform: translate(0.9em, -0.9em);
           transform: translate(0.9em, -0.9em);
@@ -505,13 +505,13 @@ a .btn:hover, .btn-large:hover, .btn.tooltipped:hover{
   transition: all .25s linear;
 }
 .list-item:hover:before {
-  background: #B3E9D2;
+  background: #7FFFE3;
   width: 1em;
   top: .5em;
   left: -1em;
 }
 .list-item:hover:after {
-  background: #B3E9D2;
+  background: #7FFFE3;
   width: 1em;
   bottom: -2.5em;
   left: 1em;
@@ -550,7 +550,7 @@ a .btn:hover, .btn-large:hover, .btn.tooltipped:hover{
 }
 
 .bg-work {
-	background-color: #40e0d0;
+	background-color: rgba(127, 255, 227, 0.8);
 }
 
 .work-heading {
@@ -578,7 +578,7 @@ a .btn:hover, .btn-large:hover, .btn.tooltipped:hover{
 }
 
 .portfolio-details h3 {
-	color: #40E0D0;
+	color: #7FFFE3;
 	font-weight: 700;
 	font-size: 25px;
 	font-family: 'Montserrat', sans-serif;
@@ -598,9 +598,9 @@ li.portfolio-tag {
 	font-size: 10px;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 700;
-	color: #40E0D0;
+	color: #7FFFE3;
 	display: inline;
-	border: 2px solid #40E0D0;
+	border: 2px solid #7FFFE3;
 	padding: 10px;
 }
 
@@ -626,7 +626,7 @@ i.portfolio-link:hover {
 	left: 0;
 	-webkit-transform: scale(0);
 	transform: scale(0);
-	background: #40e0d0;
+	background: #7FFFE3;
 	opacity: 0.9;
 }
 
@@ -652,14 +652,29 @@ div.button-weblink {
 
 
 /*beginning of calendar*/
+.logo{
+  height:50px;
+  width:50px;
+  margin-top:29px;
+}
+
+#logo{
+  color: black;
+  font-size: 70px;
+  display: inline-block;
+  margin-left: 622px;
+  margin-bottom: 2px;
+  margin-top: 66px;
+}
+
 .calendar {
     width: 100%;
     font-family: "Lato", sans-serif;
-    border: 1px solid #B3E9D2;
+    border: 1px solid #7FFFE3;
     border-radius: 3px;
     min-height: 275px;
     text-align: center;
-    margin-top: 79px;
+    margin-top: 140px;
     margin-bottom: 74px;
     display: inline-block;
 }
@@ -864,7 +879,7 @@ footer {
 }
 
 .fa-linkedin:hover, .fa-bandcamp:hover, .fa-github:hover, .fa-codepen:hover{
-  color: #B3E9D2;
+  color: #7FFFE3;
 }
 
 footer h3 {
