@@ -543,7 +543,7 @@ a .btn:hover, .btn-large:hover, .btn.tooltipped:hover{
 /* end of keyboard animation for skills*/
 
 /*beginning of my portfolio grid */
-.work {
+#work {
 	margin-bottom: 0;
 	padding-top: 10px;
 	padding-bottom: 10px;
@@ -578,7 +578,7 @@ a .btn:hover, .btn-large:hover, .btn.tooltipped:hover{
 }
 
 .portfolio-details h3 {
-	color: #008080;
+	color: #40E0D0;
 	font-weight: 700;
 	font-size: 25px;
 	font-family: 'Montserrat', sans-serif;
@@ -614,8 +614,8 @@ i.portfolio-link {
 }
 
 i.portfolio-link:hover {
-	border: 2px solid #008080;
-	color: #008080;
+	border: 2px solid #B3E9D2;
+	color: #B3E9D2;
 }
 
 .portfolio-item-ct .textbox-portfolio {
@@ -650,6 +650,141 @@ div.button-weblink {
 	text-align: center;
 }
 
+
+/*beginning of calendar*/
+.calendar {
+    width: 100%;
+    font-family: "Lato", sans-serif;
+    border: 1px solid #B3E9D2;
+    border-radius: 3px;
+    min-height: 275px;
+    text-align: center;
+    margin-top: 79px;
+    margin-bottom: 74px;
+    display: inline-block;
+}
+
+.calendar h2{
+    font-size: 1.5em;
+    line-height: 2%;
+    margin: 1.78rem 0 1.424rem 0;
+}
+
+.calendar-graph text.wday,
+.calendar-graph text.month {
+    font-size: 10px;
+    fill: #aaa;
+}
+
+.contrib-legend {
+    text-align: right;
+    padding: 0 14px 10px 0;
+    display: inline-block;
+    float: right;
+}
+
+.contrib-legend .legend {
+    display: inline-block;
+    list-style: none;
+    margin: 0 5px;
+    position: relative;
+    bottom: -1px;
+    padding: 0;
+}
+
+.contrib-legend .legend li {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+}
+
+.text-small {
+    font-size: 12px;
+    color: #767676;
+}
+
+.calendar-graph {
+    padding: 5px 0 0;
+    height: 126px;
+    text-align: center;
+}
+
+.contrib-column {
+    padding: 15px 0;
+    text-align: center;
+    border-left: none;
+    border-top: none;
+    font-size: 11px;
+}
+
+.contrib-column-first {
+    border-left: 0;
+}
+
+.table-column {
+    display: table-cell;
+    width: 1%;
+    padding-right: 10px;
+    padding-left: 10px;
+    vertical-align: top;
+}
+
+.contrib-number {
+    font-weight: 300;
+    line-height: 1.3em;
+    font-size: 24px;
+    display: block;
+    color: #333;
+}
+
+.calendar img.spinner {
+    width: 70px;
+    margin-top: 50px;
+    min-height: 70px;
+}
+
+.monospace {
+    text-align: center;
+    color: #000;
+    font-family: monospace;
+}
+
+.monospace a {
+    color: #1D75AB;
+    text-decoration: none;
+}
+
+.contrib-footer {
+    font-size: 11px;
+    padding: 0 10px 12px;
+    text-align: left;
+    width: 100%;
+    box-sizing: border-box;
+    height: 26px;
+}
+
+.left.text-muted {
+    float: left;
+    margin-left: 9px;
+    color: #767676;
+}
+.left.text-muted a {
+    color: #4078c0;
+    text-decoration: none;
+}
+.left.text-muted a:hover,
+.monospace a:hover {
+    text-decoration: underline;
+}
+
+h2.f4.text-normal.mb-3 {
+    display: none;
+}
+
+.float-left.text-gray {
+    float: left;
+}
+
 /*beginning of footer */
 
 footer {
@@ -667,7 +802,7 @@ footer {
   clear: both;
   text-align: center;
   font-family: 'Lato', sans-serif;
-  padding-top: 30px;
+  padding-top: 79px;
 }
 
 .footer-elements a {
@@ -726,6 +861,10 @@ footer {
 
 .fa:focus, .fa-linkedin:focus, .fa-bandcamp:focus, .fa-github:focus, .fa-codepen:focus {
   outline: 0;
+}
+
+.fa-linkedin:hover, .fa-bandcamp:hover, .fa-github:hover, .fa-codepen:hover{
+  color: #B3E9D2;
 }
 
 footer h3 {
