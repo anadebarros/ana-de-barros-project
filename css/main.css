@@ -295,10 +295,6 @@ animation-iteration-count: 1;
 
 /*beginning of about me page*/
 
-figure{
-  margin: 0 auto;
-}
-
 .about-me-container{
   width:100%;
   height:655px;
@@ -306,9 +302,7 @@ figure{
 }
 
 .me {
-  margin-left: 36px;
   margin-top: 57px;
-  width: 500px;
   height: 347px;
   opacity: 0.8;
 }
@@ -317,19 +311,16 @@ figure{
   font-size: 1em;
   font-family: 'Lato', sans-serif;
   letter-spacing: 0.3em;
-  float: right;
   justify-content: center;
   text-transform: uppercase;
-  width: 500px;
-  height: 347px;
   color: black;
   overflow: hidden;
   margin-top: 51px;
-  margin-right: 89px;
 }
 
 .cv {
 	outline: 0;
+  margin-top:30px;
 	font-weight: bold;
 	position: relative;
 	font-family: "Lato", sans-serif;
@@ -409,151 +400,44 @@ figure{
 
 
 /*tooltip*/
-.container-tooltip {
-  margin-right: 187px;
-  margin-top: -240px;
-  width: 200px;
-  height: 200px;
-  display: inline-block;
-  float: right;
-}
 
-a .btn, .btn-large, .btn.tooltipped{
-  font: "Lato", sans-serif;
-  font-size: 12px;
-  background: #E0E0E0;
-  text-transform: uppercase;
-}
+/*ends tooltip*/
 
-a .btn:hover, .btn-large:hover, .btn.tooltipped:hover{
-  background: #E0E0E0;
-}
-
-/*starts keyboard skills*/
-*,
-*:before,
-*:after {
-  box-sizing: border-box;
-}
-
-.keyboard {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  margin-left: 800px;
-  margin-top: -47px;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-transform: translate3d(0, 0, 0);
-  transform: translate3d(0, 0, 0);
-}
-
-.clearfix {
-  zoom: 1;
-}
-.clearfix:before, .clearfix:after {
-  content: "\0020";
-  display: block;
-  height: 0;
-  overflow: hidden;
-}
-.clearfix:after {
-  clear: both;
-}
-
-.keyboard ul {
-  position: relative;
-  -webkit-transform: rotate(-35deg) skew(20deg, 5deg);
-  transform: rotate(-35deg) skew(20deg, 5deg);
-}
-
-.keyboard li{
-  list-style-type: none;
-}
-
-.list-item {
-  background: #000;
-  color: #575757;
-  text-align: center;
-  height: 2.5em;
-  width: 4em;
-  vertical-align: middle;
-  line-height: 2.5em;
-  border-bottom: 1px solid #060606;
-  position: relative;
-  display: block;
-  text-decoration: none;
-  box-shadow: -2em 1.5em 0 #e1e1e1;
-  -webkit-transition: all .25s linear;
-  transition: all .25s linear;
-}
-.list-item:hover {
-  background: #7FFFE3;
+/* skills symbols */
+.skills{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 99px;
+  width: 50%;
   color: black;
-  -webkit-transform: translate(0.9em, -0.9em);
-          transform: translate(0.9em, -0.9em);
-  -webkit-transition: all .25s linear;
-  transition: all .25s linear;
-  box-shadow: -2em 2em 0 #e1e1e1;
+  font-size: 40px;
+  text-align: center;
+  border: 2px solid #7FFFE3;
 }
-.list-item:hover:before, .list-item:hover:after {
-  -webkit-transition: all .25s linear;
-  transition: all .25s linear;
-}
-.list-item:hover:before {
-  background: #7FFFE3;
-  width: 1em;
-  top: .5em;
-  left: -1em;
-}
-.list-item:hover:after {
-  background: #7FFFE3;
-  width: 1em;
-  bottom: -2.5em;
-  left: 1em;
-  height: 4em;
-}
-.list-item:before, .list-item:after {
-  content: '';
-  position: absolute;
-  -webkit-transition: all .25s linear;
-  transition: all .25s linear;
-  width: .5em;
-}
-.list-item:after {
-  height: 4em;
-  background: #181818;
-  bottom: -2.25em;
-  left: 1.5em;
-  -webkit-transform: rotate(90deg) skew(0, 45deg);
-  transform: rotate(90deg) skew(0, 45deg);
-}
-.list-item:before {
-  height: 2.5em;
-  background: ;
-  top: .25em;
-  left: -.5em;
-  -webkit-transform: skewY(-45deg);
-  transform: skewY(-45deg);
-}
-/* end of keyboard animation for skills*/
 
-/*beginning of my portfolio grid */
-#work {
+.skills .fa-github, .fa-html5, .fa-css3, .devicon-bootstrap-plain, .ion-social-javascript, .devicon-jquery-plain, .fa-wordpress{
+  padding: 10px;
+}
+
+/*end of skills symbols*/
+
+/*begins portfolio*/
+
+.portfolio{
+  margin-top:57px;
+}
+
+#work, #about-me, #contact {
 	margin-bottom: 0;
 	padding-top: 10px;
 	padding-bottom: 10px;
 }
 
-.bg-work {
+.bg-work, .bg-about, .bg-contact {
 	background-color: rgba(127, 255, 227, 0.8);
 }
 
-.work-heading {
+.work-heading, .about-heading, .contact-heading {
 	font-weight: 700;
 	font-size: 32px;
 	color: white;
@@ -613,12 +497,7 @@ i.portfolio-link {
 	margin: 20% auto;
 }
 
-i.portfolio-link:hover {
-	border: 2px solid #B3E9D2;
-	color: #B3E9D2;
-}
-
-.portfolio-item-ct .textbox-portfolio {
+.thumbnail .textbox-portfolio {
 	width: 100%;
 	height: 100%;
 	position: absolute;
@@ -630,7 +509,7 @@ i.portfolio-link:hover {
 	opacity: 0.9;
 }
 
-.portfolio-item-ct:hover .textbox-portfolio {
+.thumbnail:hover .textbox-portfolio {
 	-webkit-transform: scale(1);
 	transform: scale(1);
 }
@@ -650,22 +529,25 @@ div.button-weblink {
 	text-align: center;
 }
 
+/*ends portfolio*/
 
 /*beginning of calendar*/
+
+/*github big symbol*/
 .logo{
-  height:50px;
-  margin-top:29px;
-  text-align:center;
+  margin-top: 66px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60px;
+  height: 50px;
 }
 
-#logo{
+.logo .fa-github{
   color: black;
   font-size: 70px;
-  display: inline-block;
-  /*margin-left: 622px;
-  margin-bottom: 2px;*/
-  margin-top: 66px;
 }
+/* ends github big symbol*/
 
 .calendar {
     font-family: "Lato", sans-serif;
@@ -673,7 +555,7 @@ div.button-weblink {
     border-radius: 3px;
     min-height: 275px;
     text-align: center;
-    margin-top: 140px;
+    margin-top: 31px;
     margin-bottom: 74px;
     display: inline-block;
 }
@@ -798,6 +680,7 @@ h2.f4.text-normal.mb-3 {
 .float-left.text-gray {
     float: left;
 }
+/*ends calendar*/
 
 /*beginning of footer */
 
@@ -877,7 +760,7 @@ footer {
   outline: 0;
 }
 
-.fa-linkedin:hover, .fa-bandcamp:hover, .fa-github:hover, .fa-codepen:hover{
+.fa-linkedin:hover, .fa-bandcamp:hover, .footer-elements .fa-github:hover, .fa-codepen:hover{
   color: #7FFFE3;
 }
 
@@ -888,30 +771,9 @@ footer h3 {
   text-transform: uppercase;
   letter-spacing: 0.1em;
 }
-/*end of footer*/
+/*ends footer*/
 
-/*end CSS effects Ian Lunn Github*/
+
 /*start media queries*/
 
-@media only screen and (max-width:480px) {
-  /*main page*/
-
-  /*footer*/
-  footer {
-    width: 100%;
-    padding-right: 0px;
-    padding-left: 0px;
-  }
-  .footer-elements {
-    margin-right: 0px;
-    margin-left: 0px;
-    padding-top: 0px;
-  }
-  .footer-social {
-    padding-bottom: 20px;
-  }
-  .fa-envelope-o {
-    margin-bottom: 30px;
-    margin-top: -10px;
-  }
-}
+/*@media only screen and (max-width:480px)*/
