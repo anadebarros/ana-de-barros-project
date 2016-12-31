@@ -1,9 +1,9 @@
 /*nav bar taken from codepen devtips channel*/
-/*to debug
-/*{
+/*debugg
+*{
 background-color: rgba(0,0,0,0.1);
-}
-*/
+} */
+
 /*hides all scrollbars in my pages*/
 
 ::-webkit-scrollbar {
@@ -260,8 +260,9 @@ animation-iteration-count: 1;
 }
 
 .header-container {
+  margin-left:-15px;
   width: 600px;
-  height: 932px;
+  height: 970px;
   background: rgba(255, 255, 255, 0.2);
 }
 
@@ -277,13 +278,12 @@ animation-iteration-count: 1;
   padding-bottom: 100px;
   justify-content: center;
   width: 500px;
-  height: 580px;
   margin: auto;
   text-align: left;
   line-height: 100px;
 }
 
-.header-title:hover{
+header-title:hover{
   line-height: 20px;
 }
 
@@ -461,6 +461,10 @@ animation-iteration-count: 1;
 	position: relative;
 }
 
+.todoApp{
+  background-color:#E5E5E5;
+}
+
 .portfolio-details h3 {
 	color: #7FFFE3;
 	font-weight: 700;
@@ -497,7 +501,7 @@ i.portfolio-link {
 	margin: 20% auto;
 }
 
-.thumbnail .textbox-portfolio {
+.portfolio-item-ct .textbox-portfolio {
 	width: 100%;
 	height: 100%;
 	position: absolute;
@@ -509,7 +513,7 @@ i.portfolio-link {
 	opacity: 0.9;
 }
 
-.thumbnail:hover .textbox-portfolio {
+.portfolio-item-ct:hover .textbox-portfolio {
 	-webkit-transform: scale(1);
 	transform: scale(1);
 }
@@ -528,6 +532,7 @@ div.button-weblink {
 	color: #fff;
 	text-align: center;
 }
+
 
 /*ends portfolio*/
 
@@ -558,6 +563,7 @@ div.button-weblink {
     margin-top: 31px;
     margin-bottom: 74px;
     display: inline-block;
+    width: 100%;
 }
 
 .calendar h2{
@@ -685,21 +691,13 @@ h2.f4.text-normal.mb-3 {
 /*beginning of footer */
 
 footer {
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
-  width: 1170px;
   height: 300px;
 }
 
 .footer-elements {
-  margin-right: -15px;
-  margin-left: -15px;
-  clear: both;
   text-align: center;
   font-family: 'Lato', sans-serif;
-  padding-top: 79px;
+  margin-top: 79px;
 }
 
 .footer-elements a {
@@ -714,25 +712,11 @@ footer {
 }
 
 .footer-social {
-  width: 330px;
-  float: left;
-  position: relative;
-  min-height: 1px;
   height: 200px;
-  padding-right: 15px;
-  padding-left: 15px;
-  display: inline-block;
 }
 
 .footer-contact {
-  width: 330px;
-  position: relative;
-  min-height: 1px;
   height: 200px;
-  padding-right: 15px;
-  padding-left: 15px;
-  display: inline-block;
-  margin: 0 auto;
 }
 
 .fa-envelope-o {
@@ -741,13 +725,7 @@ footer {
 }
 
 .footer-copyright {
-  width: 330px;
-  float: right;
-  position: relative;
-  min-height: 1px;
   height: 200px;
-  padding-right: 15px;
-  padding-left: 15px;
 }
 
 .footer-copyright p {
@@ -776,4 +754,41 @@ footer h3 {
 
 /*start media queries*/
 
-/*@media only screen and (max-width:480px)*/
+@media only screen and (max-width:480px) {
+
+  /*for header */
+  .header-container{
+    width:174px;
+    height:429px;
+
+  }
+
+  .header-title {
+      width:200px;
+      font-size:11px;
+      font-family: 'Lato', sans-serif;
+      color: black;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      padding-left: 36px;
+      padding-right: 0;
+      padding-top: 19px;
+      padding-bottom: 100px;
+      justify-content: center;
+      margin: auto;
+      text-align: left;
+      line-height: 58px;
+  }
+
+  /*for calendar*/
+.table-column {
+  display:table;
+  width: 100%;
+  }
+
+.mb-5 .border .border-gray-dark .rounded-1 .py-2, .js-calendar-graph-svg{
+  width:100px;
+}
+
+
+}
