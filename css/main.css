@@ -1,8 +1,8 @@
 /*nav bar taken from codepen devtips channel*/
-/*debugg
+
 *{
 background-color: rgba(0,0,0,0.1);
-} */
+} 
 
 /*hides all scrollbars in my pages*/
 
@@ -295,15 +295,8 @@ header-title:hover{
 
 /*beginning of about me page*/
 
-.about-me-container{
-  width:100%;
-  height:655px;
-  background-color:white;
-}
-
 .me {
   margin-top: 57px;
-  height: 347px;
   opacity: 0.8;
 }
 
@@ -405,18 +398,37 @@ header-title:hover{
 
 /* skills symbols */
 .skills{
+  margin-bottom: 100px;
+  margin-top:80px;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 99px;
-  width: 50%;
-  color: black;
   font-size: 40px;
   text-align: center;
-  border: 2px solid #7FFFE3;
+  display:flex;
+  flex:1;
+  justify-content: center;
+
+  }
+
+.skill {
+  border-radius:5px;
+  margin:1rem;
+  font-size: 2.5rem;
+  padding:1rem .5rem;
+  transition:all .07s;
+  width:100px;
+  text-align: center;
+  color:white;
+  background:rgba(0,0,0, 0.9);
 }
 
-.skills .fa-github, .fa-html5, .fa-css3, .devicon-bootstrap-plain, .ion-social-javascript, .devicon-jquery-plain, .fa-wordpress{
-  padding: 10px;
+
+.skill:hover{
+  transform:scale(1.1);
+  border:3px solid #7FFFE3;
+  box-shadow: 0 0 15px #7FFFE3;
+  text-shadow:0 0 5px #7FFFE3;
+  font-size: 3rem;
 }
 
 /*end of skills symbols*/

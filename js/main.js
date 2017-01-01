@@ -44,13 +44,8 @@ $(document).ready(function() {
     });
 });
 
+//tooltips
 
-//for text-decoration color change not in use yet by chrome
-var textDecor = document.getElementById("textdecor");
-textDecor.style.textDecorationColor = "white";
-
-var textDecorTwo = document.getElementById("textdecortwo");
-textDecorTwo.style.textDecorationColor = "white";
-
-var textDecorThree = document.getElementById("textdecorthree");
-textDecorThree.style.textDecorationColor = "white";
+$(function() {
+    $('[data-toggle="tooltip"]').tooltip()
+})
