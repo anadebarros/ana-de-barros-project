@@ -49,3 +49,11 @@ $(document).ready(function() {
 $(function() {
     $('[data-toggle="tooltip"]').tooltip()
 })
+
+// update footer copyright year
+
+var today = new Date();
+var year = today.getFullYear();
+
+var copyright = document.getElementById("copyright");
+copyright.innerHTML = '© Ana de Barros ' + year;
