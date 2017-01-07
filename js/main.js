@@ -50,6 +50,13 @@ $(function() {
     $('[data-toggle="tooltip"]').tooltip()
 })
 
+
+//skills animate
+$(".skill").mouseover(function() {
+    $("i").addClass("animated flash");
+});
+
+
 // update footer copyright year
 
 var today = new Date();
