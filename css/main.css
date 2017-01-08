@@ -203,11 +203,11 @@ animation-iteration-count: 1;
   display: none;
 }
 
-#sidebartoggler:checked+.page-wrap .sidebar {
+#sidebartoggler:checked +.page-wrap .sidebar {
   right: 0px;
 }
 
-#sidebartoggler:checked+.page-wrap .toggle {
+#sidebartoggler:checked +.page-wrap .toggle {
   right: 35px;
 }
 

@@ -30,11 +30,18 @@ function pisca() {
     }, "fast", "swing");
 };
 
+//for sidebar to hide upon click
+
+/*$("#sidebartoggler:checked,.page-wrap, .sidebar").on("click", function() {
+    $(this).css("right", "-150%");
+});*/
+
 //for toggle change
 
 function cross(x) {
     x.classList.toggle("change");
 };
+
 
 //for tooltip in about me section
 
