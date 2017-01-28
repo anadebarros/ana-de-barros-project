@@ -30,18 +30,14 @@ function pisca() {
     }, "fast", "swing");
 };
 
-//for sidebar to hide upon click
+//for menu toggle
+$('.menu-toggle').on('click', function() {
+    $('.menu-overlay').toggleClass('full-menu');
+});
 
-/*$("#sidebartoggler:checked,.page-wrap, .sidebar").on("click", function() {
-    $(this).css("right", "-150%");
-});*/
-
-//for toggle change
-
-function cross(x) {
-    x.classList.toggle("change");
-};
-
+$('.menu-overlay li').on('click', function() {
+    $('.menu-overlay').toggleClass('full-menu');
+})
 
 //for tooltip in about me section
 
@@ -56,13 +52,6 @@ $(document).ready(function() {
 $(function() {
     $('[data-toggle="tooltip"]').tooltip()
 })
-
-
-//skills animate
-$(".skill").mouseover(function() {
-    $("i").addClass("animated flash");
-});
-
 
 // update footer copyright year
 

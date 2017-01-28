@@ -21,284 +21,279 @@
 	<a href="javascript:" id="top"><i class="fa fa-arrow-up"></i></a>
 	<!-- Finishes return to top arrow -->
 
-	<input type="checkbox" id="sidebartoggler">
-	<div class="page-wrap">
-		<label for="sidebartoggler" class="toggle" onclick="cross(this)">
-			<ul>
-				    <li class="one"></li>
-				    <li class="two"></li>
-				    <li class="three"></li>
-					</ul>
-		    </label>
-		<!--here I begin my header-->
-		<!--Header-->
-		<header class="header">
-			<section class="header-container">
+	<!--begins menu-overlay -->
 
-				<h1 class="header-title"> Ana <br/>
+	<nav class="menu-overlay">
+		<button class="menu-toggle menu-close">
+		            <i class="fa fa-times" aria-hidden="true"></i>
+		        </button>
+		<ul>
+			<li class="hvr-wobble-bottom"><a href="#home">Home</a></li>
+			<li class="hvr-wobble-bottom"><a href="#about-me">About Me</a></li>
+			<li class="hvr-wobble-bottom"><a href="#work">My Work</a></li>
+			<li class="hvr-wobble-bottom"><a href="#contact">Contact</a></li>
+		</ul>
+	</nav>
+
+	<button class="menu-toggle">
+		        <i class="fa fa-bars" aria-hidden="true"></i>
+		    </button>
+
+	<!--ends menu-overlay -->
+
+	<!--here I begin my header-->
+	<!--Header-->
+	<header id="home" class="header">
+		<section class="header-container">
+
+			<h1 class="header-title"> Ana <br/>
 					de<br/>
 					Barros <br/>
 					|<span id="spanhead">Lisbon Based </span>|<br/>
-					Front <br/>
-					End <br/><span id="spanhead">Developer</span><span id="pisca">_</span>
+					Full <br/>
+					Stack <br/><span id="spanhead">Developer</span><span id="pisca">_</span>
 				</h1>
 
-			</section>
-
-		</header>
-
-
-
-		<!--about me divider-->
-		<section id="about-me" class="bg-about">
-			<div class="container">
-				<div class="row">
-					<h4 class="about-heading">about_me</h4>
-				</div>
-			</div>
 		</section>
-		<!--ends about me divider-->
 
-		<!--starts about me section-->
-		<section class="container">
-			<div class="row">
-				<div class="col-xs-6 col-md-6 col-lg-6">
-					<img class="me img-responsive" src="img/ny2.jpg">
-				</div>
-				<div class="col-xs-6 col-md-6 col-lg-6">
-					<div class="about-me-text">
-						<p>I was born in Lisbon at the time Gameboy was a great thing. Still is. I've always loved many things but my path was divided between music and science. I graduated in Genetics and received my PhD in immunology. I then discovered web development and
-							it just felt natural: I could finally connect arts and science into one thing I love to do! Currently finishing a Web and Mobile Development course @FLAG, I can't wait to do this for a living!</p>
-						<button class="cv"><a href="#" target="_blank">Download my CV</a></button>
-					</div>
-				</div>
-			</div>
-			<!--icons for skills-->
-			<div class="row">
-				<div class="skills">
-					<div class="skill" data-toggle="tooltip" data-placement="top" title="Web dev skills">
-						<i class="fa fa-code"></i>
-					</div>
-					<div class="skill" data-toggle="tooltip" data-placement="top" title="HTML5">
-						<i class="fa fa-html5"></i>
-					</div>
-					<div class="skill" data-toggle="tooltip" data-placement="top" title="CSS3">
-						<i class="fa fa-css3"></i>
-					</div>
-					<div class="skill" data-toggle="tooltip" data-placement="top" title="Boostrap">
-						<i class="devicon-bootstrap-plain"></i>
-					</div>
-					<div class="skill" data-toggle="tooltip" data-placement="top" title="Javascript">
-						<i class="ion-social-javascript"></i>
-					</div>
-					<div class="skill" data-toggle="tooltip" data-placement="top" title="jQuery">
-						<i class='devicon-jquery-plain'></i>
-					</div>
-					<div class="skill" data-toggle="tooltip" data-placement="top" title="Wordpress">
-						<i class='fa fa-wordpress'></i>
-					</div>
-					<div class="skill" data-toggle="tooltip" data-placement="top" title="Github">
-						<i class='fa fa-github'></i>
-					</div>
-				</div>
-			</div>
-		</section>
-		<!--ends about me section-->
+	</header>
 
-		<!--starts portfolio divider -->
-		<section id="work" class="bg-work">
-			<div class="container">
-				<div class="row">
-					<h4 class="work-heading">my_work</h4>
-				</div>
-			</div>
-		</section>
-		<!--ends portfolio divider -->
 
-		<!--starts portfolio section -->
+
+	<!--about me divider-->
+	<section id="about-me" class="bg-about">
 		<div class="container">
 			<div class="row">
-				<div class="portfolio">
-					<div class="col-md-4 col-lg-4 grid-portfolio">
-						<div class="portfolio-item-ct">
-							<div class="thumbnail">
-								<img src="img/Portfolio-AnadeBarros.png">
-								<div class="textbox-portfolio">
-									<div class="button-weblink">
-										<a href="https://anadebarros.github.io/" target="_blank"><i class="fa fa-link portfolio-link" aria-hidden="true"></i></a>
-									</div>
-								</div>
-							</div>
-							<div class="caption portfolio-details">
-								<h3>Personal Website</h3>
-								<p>Responsive website using
-									<br>Bootstrap, HTML5/CSS3 and jQuery.
-								</p>
-								<ul class="portfolio-tags">
-									<li class="portfolio-tag">RESPONSIVE</li>
-									<li class="portfolio-tag">HTML5/CSS3</li>
-									<li class="portfolio-tag">BOOTSTRAP</li>
-									<li class="portfolio-tag">JAVASCRIPT</li>
-								</ul>
-							</div>
-						</div>
-					</div>
+				<h4 class="about-heading">about_me</h4>
+			</div>
+		</div>
+	</section>
+	<!--ends about me divider-->
 
-					<div class="col-md-4 col-lg-4 grid-portfolio">
-						<div class="portfolio-item-ct">
-							<div class="thumbnail todoApp">
-								<img src="img/TodoApp.gif">
-								<div class="textbox-portfolio">
-									<div class="button-weblink">
-										<a href="https://anadebarros.github.io/To-Do-List/" target="_blank"><i class="fa fa-link portfolio-link" aria-hidden="true"></i></a>
-									</div>
-								</div>
-							</div>
-							<div class="caption portfolio-details">
-								<h3>Vanilla JS "ToDo" App</h3>
-								<p>Web app created with Vanilla Javascript.
-									<br> Based on WatchAndCode Tutorial.
-								</p>
-								<ul class="portfolio-tags">
-									<li class="portfolio-tag">JAVASCRIPT</li>
-									<li class="portfolio-tag">WEB APP</li>
-									<li class="portfolio-tag">CSS3</li>
-								</ul>
-							</div>
-						</div>
-					</div>
-
-					<div class="col-md-4 col-lg-4 grid-portfolio">
-						<div class="portfolio-item-ct">
-							<div class="thumbnail">
-								<img src="img/Portfolio-JoaodeBarrosPhotography.png">
-								<div class="textbox-portfolio">
-									<div class="button-weblink">
-										<a href="http://joaodebarrosphotography.pt/" target="_blank"><i class="fa fa-link portfolio-link" aria-hidden="true"></i></a>
-									</div>
-								</div>
-							</div>
-							<div class="caption portfolio-details">
-								<h3>João de Barros Photography</h3>
-								<p>Responsive website using Wordpress.
-									<br> Child theme developed based on a free theme.
-								</p>
-								<ul class="portfolio-tags">
-									<li class="portfolio-tag">WORDPRESS</li>
-									<li class="portfolio-tag">PHOTOGRAPHY</li>
-									<li class="portfolio-tag">RESPONSIVE</li>
-									<li class="portfolio-tag">SEO</li>
-								</ul>
-							</div>
-						</div>
-					</div>
+	<!--starts about me section-->
+	<section class="container">
+		<div class="row">
+			<div class="col-xs-6 col-md-6 col-lg-6">
+				<img class="me img-responsive" src="img/ny2.jpg">
+			</div>
+			<div class="col-xs-6 col-md-6 col-lg-6">
+				<div class="about-me-text">
+					<p>I was born in Lisbon at the time Gameboy was a great thing. Still is. I've always loved many things but my path was divided between music and science. I graduated in Genetics and received my PhD in immunology. I then discovered web development and
+						it just felt natural: I could finally connect arts and science into one thing I love to do! Currently finishing a Web and Mobile Development course @FLAG, I can't wait to do this for a living!</p>
+					<button class="cv"><a href="#" target="_blank">Download my CV</a></button>
 				</div>
 			</div>
 		</div>
-		<!-- ends portfolio section-->
-
-		<!--beginning of github calendar section-->
-		<div class="container">
-			<div class="row">
-				<div class="logo">
-					<i class="fa fa-github"></i>
+		<!--icons for skills-->
+		<div class="row">
+			<div class="skills">
+				<div class="skill" data-toggle="tooltip" data-placement="top" title="Web dev skills">
+					<i class="fa fa-code"></i>
 				</div>
-				<div class="calendar">
+				<div class="skill" data-toggle="tooltip" data-placement="top" title="HTML5">
+					<i class="fa fa-html5"></i>
+				</div>
+				<div class="skill" data-toggle="tooltip" data-placement="top" title="CSS3">
+					<i class="fa fa-css3"></i>
+				</div>
+				<div class="skill" data-toggle="tooltip" data-placement="top" title="Boostrap">
+					<i class="devicon-bootstrap-plain"></i>
+				</div>
+				<div class="skill" data-toggle="tooltip" data-placement="top" title="Javascript">
+					<i class="ion-social-javascript"></i>
+				</div>
+				<div class="skill" data-toggle="tooltip" data-placement="top" title="jQuery">
+					<i class='devicon-jquery-plain'></i>
+				</div>
+				<div class="skill" data-toggle="tooltip" data-placement="top" title="Python">
+					<i class='ion-social-python'></i>
+				</div>
+				<div class="skill" data-toggle="tooltip" data-placement="top" title="Wordpress">
+					<i class='fa fa-wordpress'></i>
+				</div>
+				<div class="skill" data-toggle="tooltip" data-placement="top" title="Github">
+					<i class='fa fa-github'></i>
 				</div>
 			</div>
 		</div>
-		<!--ends calendar section-->
+	</section>
+	<!--ends about me section-->
 
-		<!--Contact Divider-->
-		<section id="contact" class="bg-contact">
-			<div class="container">
-				<div class="row">
-					<h4 class="contact-heading">let's_talk</h4>
-				</div>
-			</div>
-		</section>
-		<!--Ends Contact Divider-->
-
-		<!--Starts Footer-->
-		<footer class="container">
+	<!--starts portfolio divider -->
+	<section class="bg-work">
+		<div class="container">
 			<div class="row">
-				<div class="footer-elements">
+				<h4 id="work" class="work-heading">my_work</h4>
+			</div>
+		</div>
+	</section>
+	<!--ends portfolio divider -->
 
-					<div class="col-md-4 col-lg-4">
-						<div class="footer-social">
-							<h3>Social Media</h3>
-
-							<p><a target="_blank" href="https://pt.linkedin.com/in/ana-de-barros-4750998"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-								<a target="_blank" href="http://codepen.io/anadebarros/"><i class="fa fa-codepen" aria-hidden="true"></i></a></br>
-								<a target="_blank" href="https://duramatermusic.bandcamp.com/"><i class="fa fa-bandcamp" aria-hidden="true"></i></a>
-								<a target="_blank" href="https://github.com/anadebarros"><i class="fa fa-github" aria-hidden="true"></i></a>
+	<!--starts portfolio section -->
+	<div class="container">
+		<div class="row">
+			<div class="portfolio">
+				<div class="col-md-4 col-lg-4 grid-portfolio">
+					<div class="portfolio-item-ct">
+						<div class="thumbnail">
+							<img src="img/Portfolio-AnadeBarros.png">
+							<div class="textbox-portfolio">
+								<div class="button-weblink">
+									<a href="https://anadebarros.github.io/" target="_blank"><i class="fa fa-link portfolio-link" aria-hidden="true"></i></a>
+								</div>
+							</div>
+						</div>
+						<div class="caption portfolio-details">
+							<h3>Personal Website</h3>
+							<p>Responsive website using
+								<br>Bootstrap, HTML5/CSS3 and jQuery.
 							</p>
-
+							<ul class="portfolio-tags">
+								<li class="portfolio-tag">RESPONSIVE</li>
+								<li class="portfolio-tag">HTML5/CSS3</li>
+								<li class="portfolio-tag">BOOTSTRAP</li>
+								<li class="portfolio-tag">JAVASCRIPT</li>
+							</ul>
 						</div>
 					</div>
-					<!-- end col lg first -->
-
-					<div class="col-md-4 col-lg-4">
-						<div class="footer-contact">
-							<h3>Contact</h3>
-							<p><i class="fa fa-envelope-o" aria-hidden="true"></i><br> scralowrealow{at}gmail.com</p>
-						</div>
-
-					</div>
-					<!-- end col lg second-->
-
-					<div class="col-md-4 col-lg-4">
-						<div class="footer-copyright">
-							<h3>Copyright</h3>
-							<p> <i class="fa fa-battery-full" aria-hidden="true"></i>
-								<i class="fa fa-battery-half" aria-hidden="true"></i>
-								<i class="fa fa-battery-empty" aria-hidden="true"></i> </p>
-							<p id="copyright">&copy; Ana de Barros 2017 </p>
-						</div>
-
-					</div>
-					<!-- end col lg third -->
-
 				</div>
 
+				<div class="col-md-4 col-lg-4 grid-portfolio">
+					<div class="portfolio-item-ct">
+						<div class="thumbnail todoApp">
+							<img src="img/TodoApp.gif">
+							<div class="textbox-portfolio">
+								<div class="button-weblink">
+									<a href="https://anadebarros.github.io/To-Do-List/" target="_blank"><i class="fa fa-link portfolio-link" aria-hidden="true"></i></a>
+								</div>
+							</div>
+						</div>
+						<div class="caption portfolio-details">
+							<h3>Vanilla JS "ToDo" App</h3>
+							<p>Web app created with Vanilla Javascript.
+								<br> Based on WatchAndCode Tutorial.
+							</p>
+							<ul class="portfolio-tags">
+								<li class="portfolio-tag">JAVASCRIPT</li>
+								<li class="portfolio-tag">WEB APP</li>
+								<li class="portfolio-tag">CSS3</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-4 col-lg-4 grid-portfolio">
+					<div class="portfolio-item-ct">
+						<div class="thumbnail">
+							<img src="img/Portfolio-JoaodeBarrosPhotography.png">
+							<div class="textbox-portfolio">
+								<div class="button-weblink">
+									<a href="http://joaodebarrosphotography.pt/" target="_blank"><i class="fa fa-link portfolio-link" aria-hidden="true"></i></a>
+								</div>
+							</div>
+						</div>
+						<div class="caption portfolio-details">
+							<h3>João de Barros Photography</h3>
+							<p>Responsive website using Wordpress.
+								<br> Child theme developed based on a free theme.
+							</p>
+							<ul class="portfolio-tags">
+								<li class="portfolio-tag">WORDPRESS</li>
+								<li class="portfolio-tag">PHOTOGRAPHY</li>
+								<li class="portfolio-tag">RESPONSIVE</li>
+								<li class="portfolio-tag">SEO</li>
+							</ul>
+						</div>
+					</div>
+				</div>
 			</div>
-			<!-- end row -->
-
-		</footer>
-		<!--ends footer -->
-
-		<!--begins sidebar -->
-
-		<div class="sidebar">
-			<ul>
-				<a href="#home">
-					<li id="textdecor" class="hvr-wobble-bottom">Home</li>
-				</a>
-				<a href="#about-me">
-					<li id="textdecortwo" class="hvr-wobble-bottom">About Me</li>
-				</a>
-				<a href="#mywork">
-					<li id="textdecorthree" class="hvr-wobble-bottom">My Work</li>
-				</a>
-			</ul>
 		</div>
+	</div>
+	<!-- ends portfolio section-->
 
+	<!--beginning of github calendar section-->
+	<div class="container">
+		<div class="row">
+			<div class="logo">
+				<i class="fa fa-github"></i>
+			</div>
+			<div class="calendar">
+			</div>
+		</div>
+	</div>
+	<!--ends calendar section-->
 
-		<!--ends sidebar-->
+	<!--Contact Divider-->
+	<section class="bg-contact">
+		<div class="container">
+			<div class="row">
+				<h4 id="contact" class="contact-heading">Contact</h4>
+			</div>
+		</div>
+	</section>
+	<!--Ends Contact Divider-->
 
-		<!--insert js files before body closes -->
-		<script type="text/javascript" src="js/jquery-3.0.0.min.js">
-		</script>
-		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<!--Starts Footer-->
+	<footer class="container">
+		<div class="row">
+			<div class="footer-elements">
 
-		<script type="text/javascript" src="js/main.js">
-		</script>
-		<script type="text/javascript" src="https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.min.js"></script>
+				<div class="col-md-4 col-lg-4">
+					<div class="footer-social">
+						<h3>Social Media</h3>
 
-		<script src="https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.min.js"></script>
-		<script>
-			GitHubCalendar(".calendar", "anadebarros");
-		</script>
+						<p><a target="_blank" href="https://pt.linkedin.com/in/ana-de-barros-4750998"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+							<a target="_blank" href="http://codepen.io/anadebarros/"><i class="fa fa-codepen" aria-hidden="true"></i></a></br>
+							<a target="_blank" href="https://duramatermusic.bandcamp.com/"><i class="fa fa-bandcamp" aria-hidden="true"></i></a>
+							<a target="_blank" href="https://github.com/anadebarros"><i class="fa fa-github" aria-hidden="true"></i></a>
+						</p>
+
+					</div>
+				</div>
+				<!-- end col lg first -->
+
+				<div class="col-md-4 col-lg-4">
+					<div class="footer-contact">
+						<h3>Contact</h3>
+						<p><i class="fa fa-envelope-o" aria-hidden="true"></i><br> scralowrealow{at}gmail.com</p>
+					</div>
+
+				</div>
+				<!-- end col lg second-->
+
+				<div class="col-md-4 col-lg-4">
+					<div class="footer-copyright">
+						<h3>Copyright</h3>
+						<p> <i class="fa fa-battery-full" aria-hidden="true"></i>
+							<i class="fa fa-battery-half" aria-hidden="true"></i>
+							<i class="fa fa-battery-empty" aria-hidden="true"></i> </p>
+						<p id="copyright">&copy; Ana de Barros 2017 </p>
+					</div>
+
+				</div>
+				<!-- end col lg third -->
+
+			</div>
+
+		</div>
+		<!-- end row -->
+
+	</footer>
+	<!--ends footer -->
+
+	<!--insert js files before body closes -->
+	<script type="text/javascript" src="js/jquery-3.0.0.min.js">
+	</script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+	<script type="text/javascript" src="js/main.js">
+	</script>
+	<script type="text/javascript" src="https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.min.js"></script>
+
+	<script src="https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.min.js"></script>
+	<script>
+		GitHubCalendar(".calendar", "anadebarros");
+	</script>
 </body>
 
 </html>
