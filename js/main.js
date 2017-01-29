@@ -53,6 +53,31 @@ $(function() {
     $('[data-toggle="tooltip"]').tooltip()
 })
 
+
+//geolocation
+
+function initMap() {
+    //insert map
+    var map = new google.maps.Map(document.getElementById('map'), {
+        center: {
+            lat: 38.7075196,
+            lng: -9.1375167
+        },
+        zoom: 10
+    });
+
+    //add marker
+    var marker = new google.maps.Marker({
+        position: {
+            lat: 38.7075196,
+            lng: -9.1375167
+        },
+        map: map,
+        title: "hello world"
+    });
+}
+
+
 // update footer copyright year
 
 var today = new Date();

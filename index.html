@@ -86,33 +86,38 @@
 		</div>
 		<!--icons for skills-->
 		<div class="row">
-			<div class="skills">
-				<div class="skill" data-toggle="tooltip" data-placement="top" title="Web dev skills">
-					<i class="fa fa-code"></i>
-				</div>
-				<div class="skill" data-toggle="tooltip" data-placement="top" title="HTML5">
-					<i class="fa fa-html5"></i>
-				</div>
-				<div class="skill" data-toggle="tooltip" data-placement="top" title="CSS3">
-					<i class="fa fa-css3"></i>
-				</div>
-				<div class="skill" data-toggle="tooltip" data-placement="top" title="Boostrap">
-					<i class="devicon-bootstrap-plain"></i>
-				</div>
-				<div class="skill" data-toggle="tooltip" data-placement="top" title="Javascript">
-					<i class="ion-social-javascript"></i>
-				</div>
-				<div class="skill" data-toggle="tooltip" data-placement="top" title="jQuery">
-					<i class='devicon-jquery-plain'></i>
-				</div>
-				<div class="skill" data-toggle="tooltip" data-placement="top" title="Python">
-					<i class='ion-social-python'></i>
-				</div>
-				<div class="skill" data-toggle="tooltip" data-placement="top" title="Wordpress">
-					<i class='fa fa-wordpress'></i>
-				</div>
-				<div class="skill" data-toggle="tooltip" data-placement="top" title="Github">
-					<i class='fa fa-github'></i>
+			<div class="col-xs-6 col-md-6 col-lg-12">
+				<div class="skills">
+					<div class="skill" data-toggle="tooltip" data-placement="top" title="Atom">
+						<i class="devicon-atom-original"></i>
+					</div>
+					<div class="skill" data-toggle="tooltip" data-placement="top" title="HTML5">
+						<i class="fa fa-html5"></i>
+					</div>
+					<div class="skill" data-toggle="tooltip" data-placement="top" title="CSS3">
+						<i class="fa fa-css3"></i>
+					</div>
+					<div class="skill" data-toggle="tooltip" data-placement="top" title="Boostrap">
+						<i class="devicon-bootstrap-plain"></i>
+					</div>
+					<div class="skill" data-toggle="tooltip" data-placement="top" title="Javascript">
+						<i class="ion-social-javascript"></i>
+					</div>
+					<div class="skill" data-toggle="tooltip" data-placement="top" title="jQuery">
+						<i class='devicon-jquery-plain'></i>
+					</div>
+					<div class="skill" data-toggle="tooltip" data-placement="top" title="Python">
+						<i class='ion-social-python'></i>
+					</div>
+					<div class="skill" data-toggle="tooltip" data-placement="top" title="Apache">
+						<i class='devicon-apache-line'></i>
+					</div>
+					<div class="skill" data-toggle="tooltip" data-placement="top" title="Bower">
+						<i class="devicon-bower-line"></i>
+					</div>
+					<div class="skill" data-toggle="tooltip" data-placement="top" title="Wordpress">
+						<i class='fa fa-wordpress'></i>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -262,16 +267,24 @@
 				<!-- end col lg second-->
 
 				<div class="col-md-4 col-lg-4">
-					<div class="footer-copyright">
-						<h3>Copyright</h3>
-						<p> <i class="fa fa-battery-full" aria-hidden="true"></i>
-							<i class="fa fa-battery-half" aria-hidden="true"></i>
-							<i class="fa fa-battery-empty" aria-hidden="true"></i> </p>
-						<p id="copyright">&copy; Ana de Barros 2017 </p>
+					<div class="footer-maps">
+						<h3>Find Me</h3>
+						<div id="map"></div>
 					</div>
 
 				</div>
 				<!-- end col lg third -->
+
+				<!--begins copyright -->
+
+				<div class="col-md-12 col-lg-12">
+					<div class="footer-copyright">
+						<p id="copyright">&copy; Ana de Barros 2017 </p>
+					</div>
+
+				</div>
+
+				<!--ends copyright -->
 
 			</div>
 
@@ -282,6 +295,7 @@
 	<!--ends footer -->
 
 	<!--insert js files before body closes -->
+
 	<script type="text/javascript" src="js/jquery-3.0.0.min.js">
 	</script>
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
@@ -289,11 +303,11 @@
 	<script type="text/javascript" src="js/main.js">
 	</script>
 	<script type="text/javascript" src="https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.min.js"></script>
-
 	<script src="https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.min.js"></script>
 	<script>
 		GitHubCalendar(".calendar", "anadebarros");
 	</script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyChWKhraRki4TRTNLAJ68R6o3z53obi67Y&callback=initMap" async defer></script>
 </body>
 
 </html>
