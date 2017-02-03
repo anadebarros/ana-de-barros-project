@@ -134,8 +134,8 @@ a:hover{
   font-size: 2em;
   cursor: pointer;
   position:fixed;
-  right:10px;
-  top:5px;
+  right:25px;
+  top:18px;
 }
 
 .fa-bars{
@@ -399,7 +399,7 @@ header-title:hover{
 }
 
 #work, #about-me, #contact {
-	margin-bottom: 0;
+	/*margin-bottom: 0;*/
 	padding-top: 10px;
 	padding-bottom: 10px;
 }
@@ -697,6 +697,7 @@ footer {
 
 .footer-maps {
   height: 200px;
+
 }
 
 .footer-maps p {
@@ -707,7 +708,6 @@ footer {
 
 #map{
   height: 100px;
-  width:400px;
   border: 1px solid #40E0D0;
 }
 
@@ -735,26 +735,34 @@ footer h3 {
 
   /*for header */
   .header-container{
-    width:174px;
+    width:200px;
     height:429px;
-
   }
 
+  .header {
+    background: url("../img/ny.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    width: 100%;
+    height: auto;
+    display: table;
+}
+
   .header-title {
-      width:200px;
-      font-size:11px;
-      font-family: 'Lato', sans-serif;
-      color: black;
-      letter-spacing: 0.2em;
-      text-transform: uppercase;
-      padding-left: 36px;
-      padding-right: 0;
-      padding-top: 19px;
-      padding-bottom: 100px;
-      justify-content: center;
-      margin: auto;
-      text-align: left;
-      line-height: 58px;
+    width:200px;
+    font-size:15px;
+    font-family: 'Lato', sans-serif;
+    color: black;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    padding-left: 36px;
+    padding-right: 0;
+    padding-top: 19px;
+    padding-bottom: 100px;
+    justify-content: center;
+    margin: auto;
+    text-align: left;
+    line-height: 58px;
   }
 
   /*for calendar*/
@@ -767,5 +775,15 @@ footer h3 {
   width:100px;
 }
 
+/*for skills icons*/
+.skills {
+    display: inline-block;
+    border-radius: 5px;
+    margin: .25em;
+    font-size: 30px;
+    transition: all .07s;
+    text-align: center;
+    color: black;
+}
 
 }
