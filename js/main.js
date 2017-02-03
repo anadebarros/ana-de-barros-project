@@ -31,7 +31,7 @@ function pisca() {
 };
 
 //for menu toggle
-$('.menu-toggle').on('click', function() {
+$('.menu-toggle .fa-bars').on('click', function() {
     $('.menu-overlay').toggleClass('full-menu');
 });
 
