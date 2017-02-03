@@ -222,7 +222,7 @@ animation-iteration-count: 1;
   display: table;
 }
 
-.header-container {
+.side-bar {
   margin-left:-15px;
   width: 600px;
   height: 970px;
@@ -738,35 +738,24 @@ footer h3 {
 @media only screen and (max-width:480px) {
 
   /*for header */
-  .header-container{
-    width:200px;
-    height:429px;
+  .side-bar{
+    width:220px;
+    height:600px;
   }
-
-  .header {
-    background: url("../img/ny.jpg");
-    /*-webkit-background-size: cover;
-    -moz-background-size: cover;*/
-    width: 100%;
-    height: auto;
-    display: table;
-}
-
-  .header-title {
-    width:200px;
-    font-size:15px;
+  
+  .header-title{
+    font-size: 1.25em;
     font-family: 'Lato', sans-serif;
     color: black;
-    letter-spacing: 0.2em;
+    letter-spacing: 0.17em;
     text-transform: uppercase;
-    padding-left: 36px;
+    padding-left: 30px;
     padding-right: 0;
-    padding-top: 19px;
-    padding-bottom: 100px;
+    padding-top: 30px;
     justify-content: center;
     margin: auto;
     text-align: left;
-    line-height: 58px;
+    line-height: 72px;
   }
 
   /*for calendar*/
