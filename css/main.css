@@ -777,13 +777,30 @@ footer h3 {
 
 /*for skills icons*/
 .skills {
-    display: inline-block;
     border-radius: 5px;
-    margin: .25em;
+    margin-top: 20px;
+    margin-bottom:20px;
+    margin-left:5px;
+    margin-right:5px;
     font-size: 30px;
     transition: all .07s;
     text-align: center;
     color: black;
+}
+
+.skill {
+    border-radius: 5px;
+    font-size: 13px;
+    padding: 8px 10px;
+    transition: all .07s;
+    width: 100px;
+    text-align: center;
+    color: black;
+  }
+
+/*for cv button*/
+.cv{
+  margin-left:50px;
 }
 
 }
