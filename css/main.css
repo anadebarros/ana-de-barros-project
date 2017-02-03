@@ -99,7 +99,7 @@ a:hover{
           transform: scale(0.85);
   -webkit-transition: all 200ms ease-in-out;
   transition: all 200ms ease-in-out;
-  z-index: 2;
+  z-index: 60;
 }
 .menu-overlay ul {
   list-style-type: none;
@@ -141,7 +141,7 @@ a:hover{
 .fa-bars{
   color:rgba(127, 255, 227,1);
   font-size: 40px;
-  z-index:99;
+  z-index:50;
 }
 
 .menu-close {
@@ -743,8 +743,8 @@ footer h3 {
 
   .header {
     background: url("../img/ny.jpg");
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
+    /*-webkit-background-size: cover;
+    -moz-background-size: cover;*/
     width: 100%;
     height: auto;
     display: table;
