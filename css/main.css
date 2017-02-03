@@ -371,6 +371,7 @@ header-title:hover{
   }
 
 .skill {
+  display:inline;
   border-radius:5px;
   margin:1rem;
   font-size: 30px;
@@ -778,8 +779,8 @@ footer h3 {
 /*for skills icons*/
 .skills {
     border-radius: 5px;
-    margin-top: 20px;
-    margin-bottom:20px;
+    margin-top: 25px;
+    margin-bottom:25px;
     margin-left:5px;
     margin-right:5px;
     font-size: 30px;
@@ -789,8 +790,9 @@ footer h3 {
 }
 
 .skill {
+    display:inline;
     border-radius: 5px;
-    font-size: 13px;
+    font-size: 25px;
     padding: 8px 10px;
     transition: all .07s;
     width: 100px;
