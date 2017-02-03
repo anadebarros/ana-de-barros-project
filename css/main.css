@@ -223,8 +223,8 @@ animation-iteration-count: 1;
 }
 
 .side-bar {
-  margin-left:-15px;
-  width: 600px;
+  padding-left:20px;
+  width: 40%;
   height: 970px;
   background: rgba(255, 255, 255, 0.2);
 }
@@ -383,8 +383,6 @@ header-title:hover{
   width:100px;
   text-align: center;
   color:black;
-
-
 }
 
 
@@ -738,8 +736,8 @@ footer h3 {
 @media only screen and (max-width:480px) {
 
   /*for header */
+
   .side-bar{
-    width:220px;
     height:600px;
   }
   
@@ -749,7 +747,6 @@ footer h3 {
     color: black;
     letter-spacing: 0.17em;
     text-transform: uppercase;
-    padding-left: 30px;
     padding-right: 0;
     padding-top: 30px;
     justify-content: center;
