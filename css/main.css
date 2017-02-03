@@ -125,6 +125,7 @@ a:hover{
   opacity: 1;
   -webkit-transform: scale(1);
           transform: scale(1);
+  z-index: 60
 }
 
 .menu-toggle {
@@ -136,12 +137,13 @@ a:hover{
   position:fixed;
   right:25px;
   top:18px;
+  z-index:50;
 }
 
 .fa-bars{
   color:rgba(127, 255, 227,1);
   font-size: 40px;
-  z-index:50;
+  
 }
 
 .menu-close {
