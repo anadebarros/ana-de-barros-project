@@ -223,27 +223,27 @@ animation-iteration-count: 1;
 }
 
 .side-bar {
-  padding-left:20px;
-  width: 40%;
+  width: 43%;
   height: 970px;
   background: rgba(255, 255, 255, 0.2);
 }
 
 .header-title {
-  font-size: 4em;
+  font-size: 3.8em;
   font-family: 'Lato', sans-serif;
   color:black;
   letter-spacing: 0.2em;
   text-transform: uppercase;
   padding-left: 0;
   padding-right: 0;
-  padding-top: 70px;
+  padding-top: 30px;
   padding-bottom: 100px;
   justify-content: center;
-  width: 500px;
-  margin: auto;
+  width: 40%;
+  margin-top:0;
+  margin-left:65px;
   text-align: left;
-  line-height: 100px;
+  line-height: 104px;
 }
 
 header-title:hover{
@@ -355,8 +355,6 @@ header-title:hover{
 }
 
 
-/*tooltip*/
-
 /* skills symbols */
 .skills{
   height:75px;
@@ -364,23 +362,22 @@ header-title:hover{
   margin-top:80px;
   margin-left: auto;
   margin-right: auto;
-  font-size: 40px;
+ 
   text-align: center;
   display:flex;
   flex:1;
   justify-content: center;
-
-
   }
 
 .skill {
   display:inline;
   border-radius:5px;
   margin:1rem;
-  font-size: 30px;
+  font-size: 3.5rem;
   padding:8px 10px;
   transition:all .07s;
   width:100px;
+  height:100px;
   text-align: center;
   color:black;
 }
@@ -389,7 +386,7 @@ header-title:hover{
 .skill:hover{
   transform:scale(1.1);
   text-shadow:0 0 8px #7FFFE3;
-  font-size: 3rem;
+  font-size: 3.5rem;
 }
 
 /*end of skills symbols*/
@@ -738,10 +735,12 @@ footer h3 {
   /*for header */
 
   .side-bar{
-    height:600px;
+    height:550px;
+    width:50%;
   }
   
   .header-title{
+    margin-left:20px;
     font-size: 1.25em;
     font-family: 'Lato', sans-serif;
     color: black;
@@ -750,9 +749,8 @@ footer h3 {
     padding-right: 0;
     padding-top: 30px;
     justify-content: center;
-    margin: auto;
     text-align: left;
-    line-height: 72px;
+    line-height: 60px;
   }
 
   /*for calendar*/

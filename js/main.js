@@ -39,13 +39,6 @@ $('.menu-overlay li').on('click', function() {
     $('.menu-overlay').toggleClass('full-menu');
 })
 
-//for tooltip in about me section
-
-$(document).ready(function() {
-    $('.tooltipped').tooltip({
-        delay: 50
-    });
-});
 
 //tooltips
 
