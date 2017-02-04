@@ -411,8 +411,9 @@ header-title:hover{
 	font-weight: 700;
 	font-size: 32px;
 	color: white;
-	margin-top: 22px;
-	padding-bottom: 10px;
+	margin-top: 15px;
+  margin-bottom:15px;
+	padding: 10px;
 	text-align: center;
 	letter-spacing: 2px;
 }
