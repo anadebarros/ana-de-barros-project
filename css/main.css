@@ -1,4 +1,4 @@
-/*nav bar taken from codepen devtips channel*/
+
 /*for debugging
 *{
 background-color: rgba(0,0,0,0.1);
@@ -8,10 +8,6 @@ background-color: rgba(0,0,0,0.1);
 
 ::-webkit-scrollbar {
   display: none;
-}
-
-html {
-  overflow-y: 100.1%;
 }
 
 body {
@@ -83,11 +79,11 @@ a:hover{
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   position: fixed;
   top: 0;
   left: 0;
@@ -96,7 +92,7 @@ a:hover{
   opacity: 0;
   background-color: rgba(8, 8, 8, 0.8);
   -webkit-transform: scale(0.85);
-          transform: scale(0.85);
+  transform: scale(0.85);
   -webkit-transition: all 200ms ease-in-out;
   transition: all 200ms ease-in-out;
   z-index: 60;
@@ -124,7 +120,7 @@ a:hover{
   visibility: visible;
   opacity: 1;
   -webkit-transform: scale(1);
-          transform: scale(1);
+  transform: scale(1);
   z-index: 60
 }
 
@@ -142,8 +138,7 @@ a:hover{
 
 .fa-bars{
   color:rgba(127, 255, 227,1);
-  font-size: 40px;
-  
+  font-size: 40px;  
 }
 
 .menu-close {
@@ -526,136 +521,136 @@ div.button-weblink {
 /* ends github big symbol*/
 
 .calendar {
-    font-family: "Lato", sans-serif;
-    border: 1px solid #7FFFE3;
-    border-radius: 3px;
-    min-height: 275px;
-    text-align: center;
-    margin-top: 31px;
-    margin-bottom: 74px;
-    display: inline-block;
-    width: 100%;
+  font-family: "Lato", sans-serif;
+  border: 1px solid #7FFFE3;
+  border-radius: 3px;
+  min-height: 275px;
+  text-align: center;
+  margin-top: 31px;
+  margin-bottom: 74px;
+  display: inline-block;
+  width: 100%;
 }
 
 .calendar h2{
-    font-size: 1.5em;
-    line-height: 2%;
-    margin: 1.78rem 0 1.424rem 0;
+  font-size: 1.5em;
+  line-height: 2%;
+  margin: 1.78rem 0 1.424rem 0;
 }
 
 .calendar-graph text.wday,
 .calendar-graph text.month {
-    font-size: 10px;
-    fill: #aaa;
+  font-size: 10px;
+  fill: #aaa;
 }
 
 .contrib-legend {
-    text-align: right;
-    padding: 0 14px 10px 0;
-    display: inline-block;
-    float: right;
+  text-align: right;
+  padding: 0 14px 10px 0;
+  display: inline-block;
+  float: right;
 }
 
 .contrib-legend .legend {
-    display: inline-block;
-    list-style: none;
-    margin: 0 5px;
-    position: relative;
-    bottom: -1px;
-    padding: 0;
+  display: inline-block;
+  list-style: none;
+  margin: 0 5px;
+  position: relative;
+  bottom: -1px;
+  padding: 0;
 }
 
 .contrib-legend .legend li {
-    display: inline-block;
-    width: 10px;
-    height: 10px;
+  display: inline-block;
+  width: 10px;
+  height: 10px;
 }
 
 .text-small {
-    font-size: 12px;
-    color: #767676;
+  font-size: 12px;
+  color: #767676;
 }
 
 .calendar-graph {
-    padding: 5px 0 0;
-    height: 126px;
-    text-align: center;
+  padding: 5px 0 0;
+  height: 126px;
+  text-align: center;
 }
 
 .contrib-column {
-    padding: 15px 0;
-    text-align: center;
-    border-left: none;
-    border-top: none;
-    font-size: 11px;
+  padding: 15px 0;
+  text-align: center;
+  border-left: none;
+  border-top: none;
+  font-size: 11px;
 }
 
 .contrib-column-first {
-    border-left: 0;
+  border-left: 0;
 }
 
 .table-column {
-    display: table-cell;
-    width: 1%;
-    padding-right: 10px;
-    padding-left: 10px;
-    vertical-align: top;
+  display: table-cell;
+  width: 1%;
+  padding-right: 10px;
+  padding-left: 10px;
+  vertical-align: top;
 }
 
 .contrib-number {
-    font-weight: 300;
-    line-height: 1.3em;
-    font-size: 24px;
-    display: block;
-    color: #333;
+  font-weight: 300;
+  line-height: 1.3em;
+  font-size: 24px;
+  display: block;
+  color: #333;
 }
 
 .calendar img.spinner {
-    width: 70px;
-    margin-top: 50px;
-    min-height: 70px;
+  width: 70px;
+  margin-top: 50px;
+  min-height: 70px;
 }
 
 .monospace {
-    text-align: center;
-    color: #000;
-    font-family: monospace;
+  text-align: center;
+  color: #000;
+  font-family: monospace;
 }
 
 .monospace a {
-    color: #1D75AB;
-    text-decoration: none;
+  color: #1D75AB;
+  text-decoration: none;
 }
 
 .contrib-footer {
-    font-size: 11px;
-    padding: 0 10px 12px;
-    text-align: left;
-    width: 100%;
-    box-sizing: border-box;
-    height: 26px;
+  font-size: 11px;
+  padding: 0 10px 12px;
+  text-align: left;
+  width: 100%;
+  box-sizing: border-box;
+  height: 26px;
 }
 
 .left.text-muted {
-    float: left;
-    margin-left: 9px;
-    color: #767676;
+  float: left;
+  margin-left: 9px;
+  color: #767676;
 }
 .left.text-muted a {
-    color: #4078c0;
-    text-decoration: none;
+  color: #4078c0;
+  text-decoration: none;
 }
 .left.text-muted a:hover,
 .monospace a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 h2.f4.text-normal.mb-3 {
-    display: none;
+  display: none;
 }
 
 .float-left.text-gray {
-    float: left;
+  float: left;
 }
 /*ends calendar*/
 
@@ -735,30 +730,30 @@ footer h3 {
 
   /*for header */
 
-  .side-bar{
-    height:550px;
-    width:50%;
-  }
+.side-bar{
+  height:550px;
+  width:50%;
+}
   
-  .header-title{
-    margin-left:20px;
-    font-size: 1.25em;
-    font-family: 'Lato', sans-serif;
-    color: black;
-    letter-spacing: 0.17em;
-    text-transform: uppercase;
-    padding-right: 0;
-    padding-top: 30px;
-    justify-content: center;
-    text-align: left;
-    line-height: 60px;
-  }
+.header-title{
+  margin-left:20px;
+  font-size: 1.25em;
+  font-family: 'Lato', sans-serif;
+  color: black;
+  letter-spacing: 0.17em;
+  text-transform: uppercase;
+  padding-right: 0;
+  padding-top: 30px;
+  justify-content: center;
+  text-align: left;
+  line-height: 60px;
+}
 
   /*for calendar*/
 .table-column {
   display:table;
   width: 100%;
-  }
+}
 
 .mb-5 .border .border-gray-dark .rounded-1 .py-2, .js-calendar-graph-svg{
   width:100px;
@@ -766,27 +761,27 @@ footer h3 {
 
 /*for skills icons*/
 .skills {
-    border-radius: 5px;
-    margin-top: 25px;
-    margin-bottom:25px;
-    margin-left:5px;
-    margin-right:5px;
-    font-size: 30px;
-    transition: all .07s;
-    text-align: center;
-    color: black;
+  border-radius: 5px;
+  margin-top: 25px;
+  margin-bottom:25px;
+  margin-left:5px;
+  margin-right:5px;
+  font-size: 30px;
+  transition: all .07s;
+  text-align: center;
+  color: black;
 }
 
 .skill {
-    display:inline;
-    border-radius: 5px;
-    font-size: 20px;
-    padding: 5px;
-    transition: all .07s;
-    width: 100px;
-    text-align: center;
-    color: black;
-  }
+  display:inline;
+  border-radius: 5px;
+  font-size: 20px;
+  padding: 5px;
+  transition: all .07s;
+  width: 100px;
+  text-align: center;
+  color: black;
+}
 
 /*for cv button*/
 .cv{

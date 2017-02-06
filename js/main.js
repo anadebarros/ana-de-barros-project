@@ -1,6 +1,6 @@
 //for arrow return to top
 
-// ===== Scroll to Top ====
+//  Scroll to Top 
 $(window).scroll(function() {
     if ($(this).scrollTop() >= 50) { // If page is scrolled more than 50px
         $('#top').fadeIn("fast"); // Fade in the arrow
@@ -14,13 +14,11 @@ $('#top').click(function() { // When arrow is clicked
     }, 500);
 });
 
-//for blinking element in home
+//for blinking element in header
 
 $(document).ready(function() {
     setInterval("pisca()", 600);
 });
-
-
 
 function pisca() {
     $("#pisca").animate({
