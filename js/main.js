@@ -41,6 +41,7 @@ $('.menu-overlay li').on('click', function() {
 //tooltips
 
 $(function() {
+    console.log('tooltips are working')
     $('[data-toggle="tooltip"]').tooltip()
 })
 
@@ -60,6 +61,7 @@ function initMap() {
 
     //add marker
     var marker = new google.maps.Marker({
+
         position: {
             lat: 38.7075196,
             lng: -9.1375167
