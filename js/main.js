@@ -48,6 +48,7 @@ $(function() {
 //geolocation
 
 function initMap() {
+    console.log('map is working');
     //insert map
     var map = new google.maps.Map(document.getElementById('map'), {
         center: {
