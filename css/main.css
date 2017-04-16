@@ -653,68 +653,6 @@ h2.f4.text-normal.mb-3 {
 }
 /*ends calendar*/
 
-/* begins visit section */
-
-.last-visits h3 {
-  color: #40E0D0;
-  font-weight: 700;
-  font-size: 25px;
-  font-family: 'Montserrat', sans-serif;
-  text-align: center;
-}
-
-.table{
-  margin-top: 31px;
-  margin-bottom:74px;
-}
-
-/* ends visit section */
-
-/* contact form */
-.form-group {
-  margin-bottom: 8px;
-}
-
-.form-control:focus {
-  border-color: #03c1c1;
-  outline: 0;
-  -webkit-box-shadow: none;
-  box-shadow: none;
-}
-
-#feedbackForm {
-  font-size: 14px;
-  text-align: left;
-  color: #03c1c1;
-  margin-bottom: 69px;
-  margin-top: 69px;
-}
-
-#feedbackForm span {
-  color: #fff;
-}
-
-.input-group-addon {
-  padding: 6px 17px;
-  background-color: #03c1c1;
-  border: #03c1c1;
-}
-
-#feedbackSubmit {
-  background-color: #03c1c1;
-  font-size: 16px;
-  margin: 0 auto;
-  border-color: #03c1c1;
-}
-
-#feedbackSubmit:hover {
-  background-color: #40E0D0;
-  color: #fff;
-  border-color: #40E0D0;
-}
-/*ends contact form*/
-
-
 /*beginning of footer */
 
 footer {
